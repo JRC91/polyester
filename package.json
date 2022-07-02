@@ -1,7 +1,7 @@
 {
-  "name": "fs-app-template",
+  "name": "polyester",
   "version": "2.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
+  "description": "CSS Demo for anti-plastics site",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -17,9 +17,10 @@
     "test:dev:models": "npm run test:dev -- --grep=model",
     "test:dev:routes": "npm run test:dev -- --grep=route"
   },
-  "author": "Fullstack Academy of Code",
+  "author": "JRC91",
   "license": "MIT",
   "dependencies": {
+    "18": "^0.0.0",
     "axios": "^0.21.1",
     "bcrypt": "^5.0.0",
     "compression": "^1.7.3",
@@ -43,7 +44,7 @@
     "esm": "^3.2.25",
     "mocha": "^6.2.3",
     "nodemon": "^1.19.4",
-    "react": "^16.8.6",
+    "react": "^16.14.0",
     "react-dom": "^16.8.6",
     "react-redux": "^7.0.1",
     "react-router-dom": "^5.0.0",
