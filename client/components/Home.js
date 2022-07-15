@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { connect } from "react-redux";
 import Carousel from 'react-bootstrap/Carousel'
-
+import {Link} from 'react-router-dom'
 
 export const Home = (props) => {
   const [carousel, setCarousel] = useState([]);
@@ -21,7 +21,7 @@ export const Home = (props) => {
   return (
     <div>
       <h3></h3>
-
+<h2 className='text-center'>Latest News</h2>
 <Carousel fade activeIndex={index}  className='w-60'variant="dark" onSelect={handleSelect}>
       <Carousel.Item>
       <img className="d-block mx-auto"  src="/assets/slideone.jpg"
@@ -29,35 +29,41 @@ export const Home = (props) => {
       height='600px'></img>
 
         <Carousel.Caption>
-          <div className="cc">
-          <h3 >The Plastic World</h3>
-          <h5>How we got to this point</h5>
+          <Link to='/plasticworld'>
+          <div className="d-block mx-auto text-white" id='captionBox'>
+          <h2 >The Plastic World</h2>
+          <h4>How we got to this point</h4>
           </div>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-       <img className='d-block mx-auto' src='/assets/slidetwo.jpg'
+       <img className='d-block mx-auto' src='/assets/slidetwo.png'
         width='1200px'
         height='600px'
        ></img>
         <Carousel.Caption>
-        <div className="cc">
-          <h3 >The Recycle Folly</h3>
-          <p>Thrown Out and Forgotten.</p>
+          <Link to='/recyclefolly'>
+        <div className="d-block mx-auto text-white" id='captionBox' width='1200px'>
+          <h2 >The Recycle Folly</h2>
+          <h4>Thrown Out and Forgotten.</h4>
           </div>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-      <img  className='d-block mx-auto' src='/assets/slidethree.webp'
+      <img  className="d-block mx-auto" src='/assets/slidethree.webp'
        width='1200px'
        height='600px'></img>
         <Carousel.Caption>
-        <div className="cc">
-          <h3>The Blame Game</h3>
-          <p>
-           Moral Responsibility Being Passed On To Individuals
-          </p>
+        <Link to='blamegame'>
+        <div className="d-block mx-auto text-white" id='captionBox' width='1200px' height='400px'>
+          <h2>The Blame Game</h2>
+          <h4>
+          Who Shoulders The Responsbility?
+          </h4>
           </div>
+          </Link>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
