@@ -5,7 +5,11 @@ body {
 a {
   text-decoration: none;
 }
-
+span {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 label {
   display: block;
 }
@@ -14,12 +18,29 @@ nav a {
   display: inline-block;
   margin: 1em;
 }
+.shareBar {
+  background-color: antiquewhite;
+  width: 50%;
+  margin: auto;
+}
 
 .navBar {
   display: flex;
   justify-content: space-evenly;
-
+  overflow: hidden;
+  background-color: white;
   margin-bottom: 0px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  border-bottom: #000;
+}
+.navBar p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  text-indent: 50px;
+  font-size: 20px;
 }
 
 form div {
@@ -27,16 +48,45 @@ form div {
   display: inline-block;
 }
 
-span {
-  display: inline;
-}
-
 #captionBox {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   background-color: green;
+  width: 1200px;
 }
+#caption {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  background-color: green;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 1200px;
+  transform: translate(-50%, -50%);
+}
+#captionArticle {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  background-color: green;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 1200px;
+  transform: translate(-50%, -50%);
+}
+
+.quote {
+  text-align: left;
+  text-indent: 100px;
+}
+.imagePage {
+  left: 50%;
+  max-width: 1200px;
+}
+
 .nav-link {
   background-color: white;
   font-weight: bold;
@@ -47,4 +97,40 @@ span {
 .nav-link:hover,
 .nav-link:active {
   border-bottom: 2px solid #0653e0;
+}
+
+.imageContainer {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+.imageCarousel {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.main {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  background-color: antiquewhite;
+  background-size: 70%;
+  background-repeat: no-repeat;
+}
+
+.article {
+  margin: auto;
+  padding-top: 120px;
+  text-align: center;
+  width: 100%;
+  background-color: darkgrey;
+}
+
+.references {
+  width: 80%;
+  margin: auto;
+  text-align: left;
 }

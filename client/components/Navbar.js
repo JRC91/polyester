@@ -1,23 +1,33 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 import {logout} from '../store'
 import { Dropdown, Button } from 'react-bootstrap'
-const Navbar = ({handleClick}) => (
-  <div>
+export function Navbar () {
+  const [opaqueSetting, setOpaque] = useState(['0'])
+
+  function handleScroll (evt) {
+    console.log(evt)
+    if(opaqueSetting === '0'){
+      setOpaque('50')
+    }
+
+  }
+
+  return (<div>
 
     <nav>
 
 
-        <div className='navBar'>
-          {/* The navbar will show these links after you log in */}
+        <div className='navBar' opacity={opaqueSetting} onScroll= {(evt) => handleScroll(evt)}>
+
 
 <Link className="navText" to="/">
 <img src="/assets/projectClear.png"  width='200px' height='100px'/>
 
 
               </Link>
-<a href="#" onClick={handleClick}>
+<a href="#" onClick={handleScroll}>
 <Link><button className="nav-link">How To Help</button></Link>
 <Link><button className="nav-link">Resources</button></Link>
 <Link><button className="nav-link">About Us</button></Link>
@@ -41,7 +51,8 @@ const Navbar = ({handleClick}) => (
     </nav>
     <hr />
   </div>
-)
+  )
+}
 
 /**
  * CONTAINER

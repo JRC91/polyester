@@ -19,52 +19,50 @@ export const Home = (props) => {
     setCurrentCar({img: '', description: ''})
   }, []);
   return (
-    <div>
+    <div className="frontPage">
       <h3></h3>
 <h2 className='text-center'>Latest News</h2>
-<Carousel fade activeIndex={index}  className='w-60'variant="dark" onSelect={handleSelect}>
-      <Carousel.Item>
+<Carousel activeIndex={index}  className='w-60'variant="dark" onSelect={handleSelect}>
+      <Carousel.Item className='imageCarousel'>
       <img className="d-block mx-auto"  src="/assets/slideone.jpg"
       width='1200px'
       height='600px'></img>
-
-        <Carousel.Caption>
           <Link to='/plasticworld'>
-          <div className="d-block mx-auto text-white" id='captionBox'>
+          <div id='caption'>
           <h2 >The Plastic World</h2>
           <h4>How we got to this point</h4>
           </div>
           </Link>
-        </Carousel.Caption>
+
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='imageCarousel'>
        <img className='d-block mx-auto' src='/assets/slidetwo.png'
         width='1200px'
         height='600px'
        ></img>
-        <Carousel.Caption>
+
           <Link to='/recyclefolly'>
-        <div className="d-block mx-auto text-white" id='captionBox' width='1200px'>
+        <div id='caption'>
           <h2 >The Recycle Folly</h2>
           <h4>Thrown Out and Forgotten.</h4>
           </div>
           </Link>
-        </Carousel.Caption>
+
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item className='imageCarousel'>
       <img  className="d-block mx-auto" src='/assets/slidethree.webp'
        width='1200px'
        height='600px'></img>
-        <Carousel.Caption>
+
         <Link to='blamegame'>
-        <div className="d-block mx-auto text-white" id='captionBox' width='1200px' height='400px'>
+        <div id='caption'>
           <h2>The Blame Game</h2>
           <h4>
           Who Shoulders The Responsbility?
           </h4>
           </div>
           </Link>
-        </Carousel.Caption>
+
       </Carousel.Item>
     </Carousel>
       <footer></footer>
