@@ -63,7 +63,7 @@ form div {
   position: absolute;
   top: 80%;
   left: 50%;
-  width: 1200px;
+  width: 900px;
   transform: translate(-50%, -50%);
 }
 #captionArticle {
@@ -83,14 +83,26 @@ form div {
   background-attachment: fixed;
   background-size: cover;
 }
+
+.statement {
+  width: 50%;
+  margin: auto;
+  padding-top: 200px;
+}
 .missionStatement {
-  width: 60%;
+  width: 100%;
   height: 700px;
   margin: auto;
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
   background: rgba(255, 255, 255, 0.5);
+
+  text-align: center;
+}
+.missionStatementAbout {
+  width: 50%;
+  margin: auto;
 }
 
 .profile {
@@ -142,6 +154,9 @@ form div {
   background-color: white;
   width: 1200px;
 }
+.Carousel {
+  background-color: rgb(248, 214, 223);
+}
 
 .imageCarousel {
   position: relative;
@@ -158,12 +173,12 @@ form div {
   background-size: 70%;
 }
 .frontPage {
-  padding-top: 120px;
+  padding-top: 135px;
 }
 
 .article {
   margin: auto;
-  padding-top: 120px;
+  padding-top: 135px;
   text-align: center;
   width: 100%;
   background-color: white;

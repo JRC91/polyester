@@ -7,6 +7,9 @@ export const Home = (props) => {
   const [carousel, setCarousel] = useState([]);
   const [currentCar, setCurrentCar] = useState({img: '', description: ''});
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -24,17 +27,18 @@ export const Home = (props) => {
         {/* <img className='banner'src='/assets/banner.gif'></img> */}
         <div className="missionStatement">
     <h1>
-    Our Mission
+   PROJECT CLEAR
     </h1>
 
-    <p>Project Clear is about raising awareness concerning plastic pollution and boosting groups that are taking action against it. Whether it be volunteer work, lobbying, or protest. Plastic does have its uses, but its use should be reserved for only the more unqiue and specialized applications it can have. We only have one planet, let's not muck this one up. </p>
+    <h3 className='statement'> We only have one planet, let's not muck this one up. </h3>
     </div>
     </div>
+    <div className="Carousel">
 <h2 className='text-center'>Latest News</h2>
-<Carousel activeIndex={index}  className='w-60'variant="dark" onSelect={handleSelect}>
+<Carousel activeIndex={index}  className='w-60 'variant="dark" onSelect={handleSelect}>
       <Carousel.Item className='imageCarousel'>
       <img className="d-block mx-auto"  src="/assets/slideone.jpg"
-      width='1200px'
+      width='900px'
       height='600px'></img>
           <Link to='/plasticworld'>
           <div id='caption'>
@@ -46,7 +50,7 @@ export const Home = (props) => {
       </Carousel.Item>
       <Carousel.Item className='imageCarousel'>
        <img className='d-block mx-auto' src='/assets/slidetwo.png'
-        width='1200px'
+        width='900px'
         height='600px'
        ></img>
 
@@ -60,7 +64,7 @@ export const Home = (props) => {
       </Carousel.Item>
       <Carousel.Item className='imageCarousel'>
       <img  className="d-block mx-auto" src='/assets/slidethree.webp'
-       width='1200px'
+       width='900px'
        height='600px'></img>
 
         <Link to='blamegame'>
@@ -74,7 +78,7 @@ export const Home = (props) => {
 
       </Carousel.Item>
     </Carousel>
-      <footer></footer>
+    </div>
     </div>
   );
 };

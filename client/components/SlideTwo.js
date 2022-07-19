@@ -1,5 +1,5 @@
 import { render } from "enzyme"
-import React from "react"
+import React, { useState, useEffect, useRef } from "react";
 import { connect } from "react-redux";
 import {
   TwitterIcon,
@@ -10,7 +10,9 @@ import {
   EmailIcon
 } from "react-share";
 export const SlideTwo = () => {
-
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className='article'>

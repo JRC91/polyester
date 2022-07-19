@@ -52,7 +52,7 @@ export function Navbar() {
 </Dropdown> */}
         </div>
       </nav>
-      <hr />
+
     </div>
   );
 }

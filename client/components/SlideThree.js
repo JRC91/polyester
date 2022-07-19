@@ -1,5 +1,5 @@
 import { render } from "enzyme";
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { connect } from "react-redux";
 import {
   TwitterIcon,
@@ -10,6 +10,12 @@ import {
   EmailIcon
 } from "react-share";
 export function SlideThree() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+
   return (
     <div className="article">
           <div className='shareBar'>
