@@ -5,6 +5,7 @@ import Home from './components/Home';
 import SlideOne from './components/SlideOne';
 import SlideTwo from './components/SlideTwo'
 import SlideThree from './components/SlideThree'
+import About from './components/About';
 /**
  * COMPONENT
  */
@@ -25,6 +26,7 @@ class Routes extends Component {
             <Route exact path='/plasticworld' component={SlideOne}/>
             <Route path='/recyclefolly'  component={SlideTwo}/>
             <Route path='/blamegame' component={SlideThree}/>
+            <Route path='/about' component={About} />
 
           </Switch>
 

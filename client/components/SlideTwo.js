@@ -6,26 +6,43 @@ import {
   TwitterShareButton,
   FacebookShareButton,
   FacebookIcon,
+  EmailShareButton,
+  EmailIcon
 } from "react-share";
 export const SlideTwo = () => {
 
 
   return (
     <div className='article'>
-       <TwitterShareButton
+      <div className='shareBar'>
+    <span>
+      <h3>Share This Story:</h3></span>
+      <span>
+      <EmailShareButton>
+        <EmailIcon round></EmailIcon>
+      </EmailShareButton>
+      </span>
+      <span>
+      <TwitterShareButton
+      display='inline-block'
         url="ProjectClear.herokuapp.com/plasticworld"
         title="The Plastic World"
         className="Demo__some-network__share-button"
       >
         <TwitterIcon round></TwitterIcon>
       </TwitterShareButton>
+      </span>
+      <span>
       <FacebookShareButton
+        display="inline-block"
         url="ProjectClear.herokuapp.com/plasticworld"
         title="The Plastic World"
         className="Demo__some-network__share-button"
       >
         <FacebookIcon round></FacebookIcon>
       </FacebookShareButton>
+      </span>
+      </div>
       <div className="imageContainer">
  <img className='d-block mx-auto' src='/assets/slidetwo.png'
         width='1200px'
@@ -40,56 +57,75 @@ export const SlideTwo = () => {
 <h3>
 
 </h3>
+<p>In every food court and on every side walk you will find recycle bins and people doing their part. For glass and paper, recycling has been a success in driving down waste; for plastic it is a more complicated matter. Of the 8.3 billion tonnes of plastic produced, merely 500 million tonnes of plastic have been recycled, or merely 6% of all plastic. Of that 500 million, 300 million ended up being eventually discarded.<sup>1</sup> According to a study done by Greenpeace, majority of single-use plastics are never recycled, even though on the packaging it states that it could be. In essence it becomes long term waste after a short shelf life.<sup>2</sup></p>
 <p>
-  Although started with good intentions, the recycling movement has ultimatly failed in curbing the amount of plastic waste produced, and has little to no dent in plastic production.  Of the 8.3 billion tonnes of plastic produced, merely 500 million tonnes of plastic have been recycled, and of that figure, 300 million ended up being eventually discarded. For majority of single-use plastic, according to a study done by Greenpeace, majority of single-use plastics are never recycled.
+In the United States, there was an attempt to find a simple answer to a complex problem, as the saying goes: the easiest way to do something is to have someone else do it for you. So off their plastic waste went, sent with payment to companies in China and Vietnam, with no agreements in place for the handling of the waste or any oversight whatsoever.<sup>3</sup> Majority of it was dumped, and this inflow of trash was such a problem that many of these nations in turn have begun banning importation of these non-recyclable plastics.<sup>4</sup> Little surprise that the vast majority of ocean pollution originates from Asia.<sup>11</sup> All the effort and work of people cleaning up their parks and beaches, thoughtfully separating and collecting bottles for the recycle bin, squandered because the people in charge looked for easy solutions to a problem that doesn't have one.
   </p>
   <p>
-  For plastic that does get succesffully reycled, there is a risk that it contains contaminates. Artificial turf, for instance, had made significant gains over natural grass due to seemingly ease of maintaining. It often uses reycled materials, primarily rubber tire, for its 'infill' has been found to contain Toxic transitive metals like lead, zinc, and cadmium, or Phtalates, or other carcinogens.
-  </p><p>
-  A further complication is that there are several different kinds of plastics, and you cannot interchangeably use them together, meaning they have to be separated out to be properly recycled. Germany
+  Even with the effort, the big problem with recycling plastic is that there are many different kinds of plastics with different properties. Some such as Polypropylene and Polyethylene are recyclable, others such as Polyvinyl Chloride (PVC) and Low Density Polyethylene (plastic bags) not so much. <sup>5,6</sup> These different plastics have different properties, and are not interchangeable. Many of the single-use plastics, the ones that adorn our food as packaging or as bags, are very difficult to recycle, and sadly they are the most ubiquitous.
+
   </p>
   <p>
-  For however much recycling the United States would usually sends its plastic garbage to China or Vietnam to handle. Where ofcourse, there was no oversight on where it ended up.
+  For plastic that does get successfully recycled, there is a risk that it contains contaminants. Artificial turf, for instance, often uses recycled materials, primarily rubber tires, for its 'infill'. This has been found to contain Toxic transition metals like lead, zinc, and cadmium, or Phthalates, or other carcinogens.<sup>7</sup> In a 2022 report, IPEN determined that many recycled plastic objects in China, Russia, and Indonesia contained toxic chemicals like fire retardants, PFAs, and the notorious chemical BPA. This raises another problem: if you ban a known toxic chemical, how can you recycle plastic that was made/contained/or was treated with it?<sup>8,9</sup> Even determining if the plastic contained contaminates would be a lengthy process. It doesn't help that as it stands, making bottles from recycled plastic is more than three times expensive than making it new.<sup>7</sup> Recycled plastic is also more brittle and weaker every time it is recycled, making it impossible to use it again, over and over. <sup>10</sup>
   </p>
+
   <p>
-  Recycling as it currently stands in the United States and the Western World is a complete failure. It is a system that requires reform, and even then it is doubtful it will curb production rates. It would be better to change to biodegradables if possible, or to severly limit the production, if not out-right ban, the production of single use plastics.
+  Plastic recycling in its current form is a small inadequate band-aid for a grievous wound we have inflicted on the earth. On a policy level, it is ineffective and, at best, wasteful. It has done little to curb production of new plastics, and if anything makes plastic use seem more viable and benign than it really is. For the effort and money put into it, plastic recycling is a fool's errand. It would be better to curb production and mandate an end to single use plastics.
   </p>
   </div>
 
 
 
   <div className='references' >
-<h4>References</h4>
+  <h4 className="text-center">References</h4>
 <ol>
-<li>1. https://ourworldindata.org/plastic-pollution#:~:text=The%20world%20now%20produces%20more,our%20natural%20environment%20and%20oceans</li>
-<li>
-https://www.greenpeace.org/usa/wp-content/uploads/2020/02/Greenpeace-Report-Circular-Claims-Fall-Flat.pdf</li>
-<li>
-https://www.sciencedirect.com/science/article/pii/S0304389422001984</li>
-<li>
-https://www.npr.org/2019/08/20/750864036/u-s-recycling-industry-is-struggling-to-figure-out-a-future-without-china#:~:text=in%20Elkridge%2C%20Md.-,In%202018%2C%20China%20announced%20it%20would%20no%20longer%20buy%20most,places%20like%20the%20United%20States.&text=The%20U.S.%20used%20to%20send,imports%20of%20the%20world's%20waste.</li>
-<li>
-https://www.bbc.com/news/science-environment-44579422</li>
-<li>
-https://www.bbc.com/news/science-environment-47914580</li>
-<li>
-https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/plastics-material-specific-data</li>
-<li>
-https://ourworldindata.org/plastic-pollution#:~:text=The%20world%20now%20produces%20more,our%20natural%20environment%20and%20oceans.
-</li>
 <li>
 https://www.science.org/doi/10.1126/sciadv.1700782
+</li>
+<li>
+https://www.greenpeace.org/usa/wp-content/uploads/2020/02/Greenpeace-Report-Circular-Claims-Fall-Flat.pdf
+</li>
+
+
+
+ <li> https://www.theguardian.com/global-development/2018/oct/05/huge-rise-us-plastic-waste-shipments-to-poor-countries-china-ban-thailand-malaysia-vietnam</li>
+ <li>
+https://www.npr.org/2019/08/20/750864036/u-s-recycling-industry-is-struggling-to-figure-out-a-future-without-china#:~:text=in%20Elkridge%2C%20Md.-,In%202018%2C%20China%20announced%20it%20would%20no%20longer%20buy%20most,places%20like%20the%20United%20States.&text=The%20U.S.%20used%20to%20send,imports%20of%20the%20world's%20waste.</li>
+
+
+<li>
+https://www.consumerreports.org/environment-sustainability/the-big-problem-with-plastic/
+</li>
+
+https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled
+
+
+<li>
+https://njwec.org/PDFs/fact-artificialterf.pdf
+</li>
+<li>
+https://ipen.org/sites/default/files/documents/ipen-plastic-poison-circ-econ-v1_4w-en.pdf
 </li>
 <li>
 https://www.sciencedirect.com/science/article/pii/S187802961630158X
 </li>
 <li>
-https://education.nationalgeographic.org/resource/great-pacific-garbage-patch
+https://www.slrecyclingltd.co.uk/what-plastics-can-and-cannot-be-recycled/#:~:text=Examples%20of%20non%2Drecyclable%20plastics,cling%20film%20and%20blister%20packaging.
 </li>
+<li> https://blog.nationalgeographic.org/2018/04/04/7-things-you-didnt-know-about-plastic-and-recycling/
+
+</li>
+
 <li>
-https://njwec.org/PDFs/fact-artificialterf.pdf
+            https://www.weforum.org/agenda/2022/07/plastic-pollution-ocean-circular-economy/
+
 </li>
+
 </ol>
+
+
+
+
 
 </div>
 </div>

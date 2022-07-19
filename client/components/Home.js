@@ -20,7 +20,16 @@ export const Home = (props) => {
   }, []);
   return (
     <div className="frontPage">
-      <h3></h3>
+      <div className='bannerSection'>
+        {/* <img className='banner'src='/assets/banner.gif'></img> */}
+        <div className="missionStatement">
+    <h1>
+    Our Mission
+    </h1>
+
+    <p>Project Clear is about raising awareness concerning plastic pollution and boosting groups that are taking action against it. Whether it be volunteer work, lobbying, or protest. Plastic does have its uses, but its use should be reserved for only the more unqiue and specialized applications it can have. We only have one planet, let's not muck this one up. </p>
+    </div>
+    </div>
 <h2 className='text-center'>Latest News</h2>
 <Carousel activeIndex={index}  className='w-60'variant="dark" onSelect={handleSelect}>
       <Carousel.Item className='imageCarousel'>

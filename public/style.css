@@ -28,13 +28,13 @@ nav a {
   display: flex;
   justify-content: space-evenly;
   overflow: hidden;
-  background-color: white;
+  background: rgb(255, 255, 255, 0.5);
   margin-bottom: 0px;
   position: fixed;
   z-index: 1;
   width: 100%;
   top: 0;
-  border-bottom: #000;
+  border-bottom: 2px solid black;
 }
 .navBar p {
   font-family: Arial, Helvetica, sans-serif;
@@ -77,10 +77,45 @@ form div {
   width: 1200px;
   transform: translate(-50%, -50%);
 }
+.bannerSection {
+  background-image: url("/assets/banner.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.missionStatement {
+  width: 60%;
+  height: 700px;
+  margin: auto;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.profile {
+  display: flex;
+  width: 50%;
+  text-align: left;
+  margin: auto;
+  border: solid #000;
+  border-radius: 20px;
+}
+.profileText {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.profileImage {
+  border-radius: 100px;
+  border: solid 1px black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .quote {
   text-align: left;
   text-indent: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .imagePage {
   left: 50%;
@@ -88,7 +123,7 @@ form div {
 }
 
 .nav-link {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8);
   font-weight: bold;
   border: none;
   background: none;
@@ -104,6 +139,8 @@ form div {
   text-align: center;
   color: white;
   margin: auto;
+  background-color: white;
+  width: 1200px;
 }
 
 .imageCarousel {
@@ -113,12 +150,15 @@ form div {
 }
 
 .main {
-  text-align: center;
+  text-align: left;
+  text-indent: 5%;
   width: 50%;
   margin: auto;
   background-color: antiquewhite;
   background-size: 70%;
-  background-repeat: no-repeat;
+}
+.frontPage {
+  padding-top: 120px;
 }
 
 .article {
@@ -126,11 +166,13 @@ form div {
   padding-top: 120px;
   text-align: center;
   width: 100%;
-  background-color: darkgrey;
+  background-color: white;
 }
 
 .references {
-  width: 80%;
+  width: 100%;
   margin: auto;
   text-align: left;
+  background-color: dimgrey;
+  color: white;
 }
