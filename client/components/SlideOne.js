@@ -109,32 +109,32 @@ export function SlideOne(props) {
         <h4 className="text-center">References</h4>
         <ol className="referenceList">
           <li>
-            <a href='https://ourworldindata.org/plastic-pollution#:~:text=The%20world%20now%20produces%20more,our%20natural%20environment%20and%20oceans'>"Plastic Pollution" by Hannah Ritchie and Max Roser. Our World In Data, September 2018, updated April 2022</a>
+            <a target="_blank" href='https://ourworldindata.org/plastic-pollution#:~:text=The%20world%20now%20produces%20more,our%20natural%20environment%20and%20oceans'>"Plastic Pollution" by Hannah Ritchie and Max Roser. Our World In Data, September 2018, updated April 2022</a>
 
           </li>
           <li>
-            <a href='https://www.sciencedirect.com/science/article/pii/S187802961630158X'>
+            <a target="_blank" href='https://www.sciencedirect.com/science/article/pii/S187802961630158X'>
             "Toxic Pollutants from Plast Waste - A Review" by Rinku Verma, K.S Vinoda, M. Papireddy, A.N.S. Gowda, Procedia Environmental Sciences Vol. 35, 2016
             </a>
           </li>
-          <li><a href='https://www.science.org/doi/10.1126/sciadv.1700782'>"Production, use, and fate of all plastics ever made" by Roland Geyer, Jenna Jambeck, and Kara Law, Science Advances Vol. 3, Issue 7, 19 Jul 2017</a></li>
+          <li><a target="_blank" href='https://www.science.org/doi/10.1126/sciadv.1700782'>"Production, use, and fate of all plastics ever made" by Roland Geyer, Jenna Jambeck, and Kara Law, Science Advances Vol. 3, Issue 7, 19 Jul 2017</a></li>
 
           <li>
-            <a href='https://education.nationalgeographic.org/resource/great-pacific-garbage-patch'>
+            <a target="_blank" href='https://education.nationalgeographic.org/resource/great-pacific-garbage-patch'>
               "Great Pacific Garbage Patch", National Geographic
             </a>
           </li>
 
-          <li><a href='https://www.bbc.com/news/science-environment-47914580'>"Early ocean plastic litter traced to 1960's' by Victoria Gill, BBC, 16 April 2019</a></li>
-          <li><a href='https://www.ecowatch.com/plastic-chewing-gum-2653209141.html'>"Did You Know There's Plastic in Most Chewing Gum?' by Audrey Nakagawa, EcoWatch, June 2nd, 2021</a>
+          <li><a target="_blank" href='https://www.bbc.com/news/science-environment-47914580'>"Early ocean plastic litter traced to 1960's' by Victoria Gill, BBC, 16 April 2019</a></li>
+          <li><a target="_blank" href='https://www.ecowatch.com/plastic-chewing-gum-2653209141.html'>"Did You Know There's Plastic in Most Chewing Gum?' by Audrey Nakagawa, EcoWatch, June 2nd, 2021</a>
           </li>
-          <li> <a href='https://www.greenpeace.org/eastasia/blog/6016/3-everyday-foods-that-contain-microplastics/#:~:text=Apples%20had%20one%20of%20the,100%2C000%20plastic%20particles%20per%20gram'>"3 Everyday Foods that Contain Microplastics', Green Peace, July 21, 2020</a></li>
+          <li> <a target="_blank" href='https://www.greenpeace.org/eastasia/blog/6016/3-everyday-foods-that-contain-microplastics/#:~:text=Apples%20had%20one%20of%20the,100%2C000%20plastic%20particles%20per%20gram'>"3 Everyday Foods that Contain Microplastics', Green Peace, July 21, 2020</a></li>
 
-          <li><a href='https://www.plasticsoupfoundation.org/en/2018/03/how-damaging-is-breathing-in-microplastics/'>'How Damaging Is Breathing In Microplastics?' Plastic Soup Foundation, 19 May 2020</a></li>
+          <li><a target="_blank" href='https://www.plasticsoupfoundation.org/en/2018/03/how-damaging-is-breathing-in-microplastics/'>'How Damaging Is Breathing In Microplastics?' Plastic Soup Foundation, 19 May 2020</a></li>
 
-          <li>   <a href='https://www.plastichealthcoalition.org/#:~:text=These%20small%20plastic%20particles%20may,disorders%20like%20ADHD%20and%20autism'>"Does Plastic Make Us Sick?" Plastic Health Coalition.</a>.</li>
+          <li>   <a target="_blank" href='https://www.plastichealthcoalition.org/#:~:text=These%20small%20plastic%20particles%20may,disorders%20like%20ADHD%20and%20autism'>"Does Plastic Make Us Sick?" Plastic Health Coalition.</a>.</li>
 
-          <li><a href='https://www.elcaminohealth.org/stay-healthy/blog/causes-effects-of-inflammation#:~:text=Over%20time%2C%20chronic%20inflammation%20can,disease%2C%20cancer%20and%20rheumatoid%20arthritis'>"The Causes and Effects of Inflammation" El Camino Health, May 2020</a></li>
+          <li><a target="_blank" href='https://www.elcaminohealth.org/stay-healthy/blog/causes-effects-of-inflammation#:~:text=Over%20time%2C%20chronic%20inflammation%20can,disease%2C%20cancer%20and%20rheumatoid%20arthritis'>"The Causes and Effects of Inflammation" El Camino Health, May 2020</a></li>
         </ol>
 
       </div>

@@ -5,6 +5,8 @@ export default function Footer () {
   return (
     <div className='text-center border-top'>
       <h6>Project Clear is an organization promoting pollution awareness. Copy 2022</h6>
+
+
     </div>
   )
 }

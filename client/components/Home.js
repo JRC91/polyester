@@ -34,7 +34,7 @@ export const Home = (props) => {
     </div>
     </div>
     <div className="Carousel">
-<h2 className='text-center'>Latest News</h2>
+<h2 className='latest'>Latest News</h2>
 <Carousel activeIndex={index}  className='w-60 'variant="dark" onSelect={handleSelect}>
       <Carousel.Item className='imageCarousel'>
       <img className="d-block mx-auto"  src="/assets/slideone.jpg"
@@ -43,7 +43,7 @@ export const Home = (props) => {
           <Link to='/plasticworld'>
           <div id='caption'>
           <h2 >The Plastic World</h2>
-          <h4>How we got to this point</h4>
+          <h4>How did we get to this point?</h4>
           </div>
           </Link>
 

@@ -4,6 +4,7 @@ body {
 
 a {
   text-decoration: none;
+  color: white;
 }
 span {
   display: inline-block;
@@ -155,7 +156,7 @@ form div {
   width: 1200px;
 }
 .Carousel {
-  background-color: rgb(248, 214, 223);
+  background-color: rgb(94, 161, 224);
 }
 
 .imageCarousel {
@@ -190,4 +191,38 @@ form div {
   text-align: left;
   background-color: dimgrey;
   color: white;
+}
+.referenceList {
+  text-align: left;
+  width: 70%;
+  margin: auto;
+}
+
+.latest {
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#myBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  height: 50px;
+  width: 50px;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 40px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: white; /* Add a dark-grey background on hover */
+  color: black;
+  border: solid black;
 }

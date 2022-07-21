@@ -130,16 +130,16 @@ export const SlideTwo = () => {
 
       <div className="references">
         <h4 className="text-center">References</h4>
-        <ol>
+        <ol className="referenceList">
           <li>
-            <a href="https://www.science.org/doi/10.1126/sciadv.1700782">
+            <a target="_blank" href="https://www.science.org/doi/10.1126/sciadv.1700782">
               "Production, use, and fate of all plastics ever made" by Roland
               Geyer, Jenna Jambeck, and Kara Law, Science Advances Vol. 3, Issue
               7, 19 Jul 2017
             </a>
           </li>
           <li>
-            <a href="https://www.greenpeace.org/usa/wp-content/uploads/2020/02/Greenpeace-Report-Circular-Claims-Fall-Flat.pdf">
+            <a target="_blank" href="https://www.greenpeace.org/usa/wp-content/uploads/2020/02/Greenpeace-Report-Circular-Claims-Fall-Flat.pdf">
               "Circular Claims Fall Flat: Comprehensive U.S. Survey of Plastics
               Recyclability" by John Hocevar for GreenPeace, February 18, 2020
             </a>
@@ -147,67 +147,67 @@ export const SlideTwo = () => {
 
           <li>
             {" "}
-            <a href="https://www.theguardian.com/global-development/2018/oct/05/huge-rise-us-plastic-waste-shipments-to-poor-countries-china-ban-thailand-malaysia-vietnam">
+            <a target="_blank" href="https://www.theguardian.com/global-development/2018/oct/05/huge-rise-us-plastic-waste-shipments-to-poor-countries-china-ban-thailand-malaysia-vietnam">
               "Huge rise in US plastic waste shipments to poor countries
               following China Ban" by Karen McVeigh. The Guardian, October 5th,
               2018.
             </a>
           </li>
           <li>
-            <a href="https://www.npr.org/2019/08/20/750864036/u-s-recycling-industry-is-struggling-to-figure-out-a-future-without-china#:~:text=in%20Elkridge%2C%20Md.-,In%202018%2C%20China%20announced%20it%20would%20no%20longer%20buy%20most,places%20like%20the%20United%20States.&text=The%20U.S.%20used%20to%20send,imports%20of%20the%20world's%20waste">
+            <a target="_blank" href="https://www.npr.org/2019/08/20/750864036/u-s-recycling-industry-is-struggling-to-figure-out-a-future-without-china#:~:text=in%20Elkridge%2C%20Md.-,In%202018%2C%20China%20announced%20it%20would%20no%20longer%20buy%20most,places%20like%20the%20United%20States.&text=The%20U.S.%20used%20to%20send,imports%20of%20the%20world's%20waste">
               "U.S. Recycling Industry Is Struggling to Figure Out A Future
               Without China", by Christopher Joyce, NPR, August 20th, 2019{" "}
             </a>{" "}
           </li>
 
           <li>
-            <a href="https://www.consumerreports.org/environment-sustainability/the-big-problem-with-plastic">
+            <a target="_blank" href="https://www.consumerreports.org/environment-sustainability/the-big-problem-with-plastic">
               "The Big Problem With Plastic" by Kevin Loria, Consumer Reports,
               September 8, 2021
             </a>
             /
           </li>
           <li>
-            <a href="https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled">
+            <a target="_blank" href="https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled">
               "How Big Oil Misled The Public Into Believing Plastic Would Be
               Recycled", by Laura Sullivan, NPR, September 11, 2020
             </a>
           </li>
 
           <li>
-            <a href="https://njwec.org/PDFs/fact-artificialterf.pdf">
+            <a target="_blank" href="https://njwec.org/PDFs/fact-artificialterf.pdf">
               "Be Aware of Artificial Turf Hazards' New Jersey Environment
               Council Fact Sheet, WEC
             </a>
           </li>
           <li>
-            <a href="https://ipen.org/sites/default/files/documents/ipen-plastic-poison-circ-econ-v1_4w-en.pdf">
+            <a target="_blank" href="https://ipen.org/sites/default/files/documents/ipen-plastic-poison-circ-econ-v1_4w-en.pdf">
               "How Plastics Poison The Circular Economy", International
               Pollutants Elimination Network, February 2022
             </a>
           </li>
           <li>
-            <a href="https://www.sciencedirect.com/science/article/pii/S187802961630158X">
+            <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S187802961630158X">
               "Toxic Pollutants From Plastic Waste- A Review" by Rinku Verma,
               K.S Vinoda, M. Papireddy, A.N.S Gowda, Procedia Environmental
               Sciences Vol. 35, 2016
             </a>
           </li>
           <li>
-            <a href="https://www.slrecyclingltd.co.uk/what-plastics-can-and-cannot-be-recycled/#:~:text=Examples%20of%20non%2Drecyclable%20plastics,cling%20film%20and%20blister%20packaging">
+            <a target="_blank" href="https://www.slrecyclingltd.co.uk/what-plastics-can-and-cannot-be-recycled/#:~:text=Examples%20of%20non%2Drecyclable%20plastics,cling%20film%20and%20blister%20packaging">
               "What Plastics Can and Cannot be Recycled?" SL Recycling
             </a>
           </li>
           <li>
             {" "}
-            <a href="https://blog.nationalgeographic.org/2018/04/04/7-things-you-didnt-know-about-plastic-and-recycling/">
+            <a target="_blank" href="https://blog.nationalgeographic.org/2018/04/04/7-things-you-didnt-know-about-plastic-and-recycling/">
               "7 Things You Didn't Know About Plastic (and Recycling)" by Lilly
               Sedaghat, National Geographic Society Newsroom, April 4th, 2018{" "}
             </a>
           </li>
 
           <li>
-            <a href="https://www.weforum.org/agenda/2022/07/plastic-pollution-ocean-circular-economy/">
+            <a target="_blank" href="https://www.weforum.org/agenda/2022/07/plastic-pollution-ocean-circular-economy/">
               "Plastic Pollution Is A Public Health Crisis. How do we reduce
               plastic waste?" by World Economic Forum, July 13 2022
             </a>

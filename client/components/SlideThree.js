@@ -107,10 +107,10 @@ export function SlideThree() {
       </div>
 
       <div className="references">
-        <h4>References</h4>
-        <ol>
+        <h4 className="text-center">References</h4>
+        <ol className="referenceList">
         <li>
-            <a href="https://www.greenpeace.org/usa/wp-content/uploads/2020/02/Greenpeace-Report-Circular-Claims-Fall-Flat.pdf">
+            <a target="_blank" href="https://www.greenpeace.org/usa/wp-content/uploads/2020/02/Greenpeace-Report-Circular-Claims-Fall-Flat.pdf">
               "Circular Claims Fall Flat: Comprehensive U.S. Survey of Plastics
               Recyclability" by John Hocevar for GreenPeace, February 18, 2020
             </a>
@@ -118,20 +118,20 @@ export function SlideThree() {
 
 
           <li>
-            <a href="https://cdn.minderoo.org/content/uploads/2021/05/27094234/20211105-Plastic-Waste-Makers-Index.pdf">"The Plastic Waste Makers Index", Minderoo Foundation, Copy 2021</a>
+            <a target="_blank" href="https://cdn.minderoo.org/content/uploads/2021/05/27094234/20211105-Plastic-Waste-Makers-Index.pdf">"The Plastic Waste Makers Index", Minderoo Foundation, Copy 2021</a>
           </li>
 
           <li>
-            <a href="https://blog.bizvibe.com/blog/plastic-manufacturing-companies">"Top 10 Largest Plastic Manufacturing Companies in the World 2020, Plastic Products Industry Factsheet" BizVibe, 2022</a>
+            <a  target="_blank"href="https://blog.bizvibe.com/blog/plastic-manufacturing-companies">"Top 10 Largest Plastic Manufacturing Companies in the World 2020, Plastic Products Industry Factsheet" BizVibe, 2022</a>
 
           </li>
 
 
 <li>
-          <a href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/testing-theories-of-american-politics-elites-interest-groups-and-average-citizens/62327F513959D0A304D4893B382B992B">"Testing Theories of American Politics: Elites, Interest Groups, and Average Citizens" by Martin Gilens and Benjamin I. Page, Cambridge University Press, September 18th, 2014</a>
+          <a target="_blank" href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/testing-theories-of-american-politics-elites-interest-groups-and-average-citizens/62327F513959D0A304D4893B382B992B">"Testing Theories of American Politics: Elites, Interest Groups, and Average Citizens" by Martin Gilens and Benjamin I. Page, Cambridge University Press, September 18th, 2014</a>
           </li>
 
-<li>         <a href="https://learn.eartheasy.com/guides/plastic-free-grocery-shopping-made-easy/">"Plastic-Free Grocery Shopping Made Easy" Eartheasy, 2022</a></li>
+<li>         <a target="_blank" href="https://learn.eartheasy.com/guides/plastic-free-grocery-shopping-made-easy/">"Plastic-Free Grocery Shopping Made Easy" Eartheasy, 2022</a></li>
         </ol>
       </div>
     </div>
