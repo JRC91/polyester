@@ -32,7 +32,7 @@ nav a {
   background: rgb(255, 255, 255, 0.5);
   margin-bottom: 0px;
   position: fixed;
-  z-index: 1;
+  z-index: 3;
   width: 100%;
   top: 0;
   border-bottom: 2px solid black;
@@ -225,4 +225,76 @@ form div {
   background-color: white; /* Add a dark-grey background on hover */
   color: black;
   border: solid black;
+}
+
+.helping {
+  padding-top: 140px;
+  width: 60%;
+  margin: auto;
+  background: linear-gradient(to right, white 40%, brown 40% 60%, white 60%);
+}
+
+.leftBox {
+  display: flex;
+}
+
+.leftPic {
+  float: left;
+  z-index: 0;
+  border-radius: 30px;
+  width: 600px;
+  height: 400px;
+  box-shadow: -5px 10px;
+}
+.textBoxLeft {
+  z-index: 1;
+  border-radius: 30px;
+  border: #000 solid;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: 00px;
+  margin-left: -100px;
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  box-shadow: -5px 10px;
+}
+.boxTop {
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  font-weight: 100;
+}
+
+.rightBox {
+  display: flex;
+}
+
+.rightPic {
+  z-index: 0;
+  border-radius: 30px;
+  width: 600px;
+  height: 400px;
+  box-shadow: 5px 10px;
+}
+.textBoxRight {
+  z-index: 1;
+  border-radius: 30px;
+  border: #000 solid;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-right: -100px;
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  box-shadow: 5px 10px;
+}
+
+.boxText {
+  margin: 10px;
+  padding: auto;
+}
+
+.boxLink {
+  color: #000;
 }

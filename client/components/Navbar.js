@@ -28,7 +28,7 @@ export function Navbar() {
             />
           </Link>
           <a href="#" onClick={handleScroll}>
-            <Link>
+            <Link to='/howtohelp'>
               <button className="nav-link">How To Help</button>
             </Link>
             <Link>
