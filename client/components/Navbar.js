@@ -7,7 +7,7 @@ export function Navbar() {
   const [opaqueSetting, setOpaque] = useState(["0"]);
 
   function handleScroll(evt) {
-    console.log(evt);
+
     if (opaqueSetting === "0") {
       setOpaque("50");
     }

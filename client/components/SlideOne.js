@@ -22,7 +22,10 @@ export function SlideOne(props) {
     <span>
       <h3>Share This Story:</h3></span>
       <span>
-      <EmailShareButton>
+      <EmailShareButton
+       url="ProjectClear.herokuapp.com/plasticworld"
+       title="The Plastic World"
+      >
         <EmailIcon round></EmailIcon>
       </EmailShareButton>
       </span>
@@ -31,7 +34,7 @@ export function SlideOne(props) {
       display='inline-block'
         url="ProjectClear.herokuapp.com/plasticworld"
         title="The Plastic World"
-        className="Demo__some-network__share-button"
+
       >
         <TwitterIcon round></TwitterIcon>
       </TwitterShareButton>
@@ -41,7 +44,7 @@ export function SlideOne(props) {
         display="inline-block"
         url="ProjectClear.herokuapp.com/plasticworld"
         title="The Plastic World"
-        className="Demo__some-network__share-button"
+
       >
         <FacebookIcon round></FacebookIcon>
       </FacebookShareButton>
