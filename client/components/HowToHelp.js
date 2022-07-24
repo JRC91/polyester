@@ -1,7 +1,4 @@
-// https://www.volunteerforever.com/article_post/stop-plastic-pollution-environment-beach-and-ocean-cleanup-volunteering/
 
-
-// https://www.plasticpollutioncoalition.org/
 
 
 
@@ -19,6 +16,7 @@ export default function Help () {
 
   return (
     <div className='helping'>
+    <div className="inner">
     <h1 className="latest">How to Help</h1>
 
 
@@ -58,14 +56,23 @@ export default function Help () {
     <img className="leftPic"  src="/assets/collection.jpg"></img>
     <div className="textBoxLeft">
     <h3 className="boxTop">Donating</h3>
-    <p className="boxText">There are several organizations lobbying, organizing, and acting for remediation on the plastic problem. There are charities attempting to boost </p>
+    <p className="boxText">There are several organizations lobbying, organizing, and acting for remediation on the plastic problem. There are other charities attempting to boost recognition of plastic overproduction. Below are some prominent groups working today.</p>
+    <ul>
+    <li><a href='https://www.plasticpollutioncoalition.org/' className='boxLink'>Plastic Pollution Coalition</a></li>
+    <li><a  className='boxLink'href='https://www.plasticfreejuly.org/'>Plastic Free July</a></li>
+    <li><a className="boxLink" href="https://www.take3.org/donate/">Take 3 For the Sea</a></li>
+    <li><a className="boxLink" href='https://www.plasticpollutioncoalition.org/'>Plastic Pollution Coalition</a></li>
+    <li><a className="boxLink" href="https://theoceancleanup.com/">Ocean Cleanup</a></li>
+    </ul>
+    <p className="boxText">Your money could be going towards development of renewable materials, or subsidizing alternatives for the public good.</p>
     </div>
     </div>
 
     <div className='rightBox'>
     <div className="textBoxRight">
     <h3 className="boxTop">Protesting</h3>
-    <p className="boxText">The best way to get your voice heard in the real world, is showing up, pound pavement and slay with slogans. There are numerous organizations going up against plastic over-use, many of them hand in hand with climate change awareness groups.</p>
+    <p className="boxText">The best way to get your voice heard in the real world, is showing up, pound pavement and slay with slogans. There are numerous organizations going up against plastic over-use, many of them hand in hand with climate change awareness groups. <a className="boxLink" href="https://www.earthday.org/">Earth Day</a> is the most prominent organization in environmentalism and has significant experience in planning and acting. Greenpeace is also a big name fighting pollution on all fronts, and has a long history of storied demonstrations. On the more extreme end you have Extinction Rebellion.
+    </p>
     </div>
     <img src="/assets/protest.jpg" className='rightPic'></img>
     </div>
@@ -75,7 +82,15 @@ export default function Help () {
     <img src="/assets/voteBox.png" className="leftPic" height='400' width ='600'></img>
     <div className="textBoxLeft">
     <h3 className="boxTop">Voting</h3>
-    <p className="boxText">Federally, locally, or referendum there is enough small scale action.</p>
+    <p className="boxText">Federally, locally, or referendum there is enough small scale action to mandate restrictions on single use plastic. If enough places restrict single use plastics, it would mean companies would have to change how they package and sell their goods. Here are some national and local organizations that are operating within politics and policy.
+    <ul>
+      <li> <a  className="boxLink" href='https://www.plasticfreejuly.org/get-involved/what-you-can-do/local-policies/'>Plastic Free July: Local Politics</a></li>
+      <li> <a  className="boxLink" href='https://cleanair.org/'> Clean Air in Philadelphia </a></li>
+
+    </ul>
+    </p>
+    <p className="boxText"> Already there has been many cities and states such as NY, NJ, and California that have banned or limited single-use plastics.</p>
+    </div>
     </div>
     </div>
     </div>

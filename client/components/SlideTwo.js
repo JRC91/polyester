@@ -101,7 +101,7 @@ export const SlideTwo = () => {
         <p>
           For plastic that does get successfully recycled, there is a risk that
           it contains contaminants. Artificial turf, for instance, often uses
-          recycled materials, primarily rubber tires, for its 'infill'. This has
+          recycled materials, primarily synthetic rubber tires, for its 'infill'. This has
           been found to contain Toxic transition metals like lead, zinc, and
           cadmium, or Phthalates, or other carcinogens.<sup>7</sup> In a 2022
           report, IPEN determined that many recycled plastic objects in China,

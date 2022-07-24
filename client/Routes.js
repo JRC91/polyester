@@ -7,6 +7,7 @@ import SlideTwo from './components/SlideTwo'
 import SlideThree from './components/SlideThree'
 import About from './components/About';
 import Help from './components/HowToHelp';
+import Allies from './components/Resources';
 /**
  * COMPONENT
  */
@@ -29,7 +30,7 @@ class Routes extends Component {
             <Route path='/blamegame' component={SlideThree}/>
             <Route path='/about' component={About} />
             <Route path='/howtohelp' component={Help} />
-
+            <Route path='/resources' component={Allies} />
           </Switch>
 
       </div>

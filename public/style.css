@@ -84,6 +84,14 @@ form div {
   background-attachment: fixed;
   background-size: cover;
 }
+.allies {
+  background-image: url("/assets/UnitedWorld.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+}
 
 .statement {
   width: 50%;
@@ -231,7 +239,8 @@ form div {
   padding-top: 140px;
   width: 60%;
   margin: auto;
-  background: linear-gradient(to right, white 40%, brown 40% 60%, white 60%);
+
+  background-size: 100% 120px;
 }
 
 .leftBox {
@@ -297,4 +306,33 @@ form div {
 
 .boxLink {
   color: #000;
+}
+
+.back {
+  background-color: white;
+}
+
+.inner {
+  background: linear-gradient(to right, white 40%, brown 40% 60%, white 60%);
+}
+
+.footerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footerLink {
+  font-weight: bold;
+  border: none;
+  background: none;
+}
+.mediaText {
+  margin-top: 10px;
+}
+
+.socialDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }

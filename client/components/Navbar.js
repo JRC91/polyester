@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-import { logout } from "../store";
+
 import { Dropdown, Button } from "react-bootstrap";
 export function Navbar() {
   const [opaqueSetting, setOpaque] = useState(["0"]);
@@ -31,7 +31,7 @@ export function Navbar() {
             <Link to='/howtohelp'>
               <button className="nav-link">How To Help</button>
             </Link>
-            <Link>
+            <Link to='/resources'>
               <button className="nav-link">Resources</button>
             </Link>
             <Link to="/about">
