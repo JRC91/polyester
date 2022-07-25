@@ -6,7 +6,9 @@ export default function Allies () {
 return (
   <div className="article">
     <div className="allies">
-    <h2>Anti-Plastic Organizations</h2>
+    <h1 className="text-center">Anti-Plastic Organizations</h1>
+
+    <h3>International</h3>
     <ul className="aff">
       <h4>
     <li>Green Peace</li>
@@ -17,22 +19,20 @@ return (
     <li>Plastic Pollution Coalition</li>
     </h4>
     </ul>
-    <h3>International</h3>
-    <ul>
-
-    </ul>
     <h3>United States</h3>
     <ul>
-
+    <li>Earth Day</li>
     </ul>
     </div>
 
   <h2>Plastic Industry Information</h2>
   <h5>Understanding the industry of plastics and petrochemicals helps us comprehend why we use plastic, and what needs to change in order to whittle down its uses.</h5>
   <ul className="aff" >
-    <li><a href='https://www.plasticsnews.com/'>Plastics News</a></li>
-    <li><a href='https://www.plasticstoday.com/'>Plastics Today</a></li>
-    <li><a href='https://www.sustainableplastics.com/'>Plastics Today</a></li>
+    <h4>
+    <li><a target="_blank" className="boxLink" href='https://www.plasticsnews.com/'>Plastics News</a></li>
+    <li><a target="_blank" className="boxLink" href='https://www.plasticstoday.com/'>Plastics Today</a></li>
+    <li><a target="_blank" className="boxLink"href='https://www.sustainableplastics.com/'>Plastics Today</a></li>
+    </h4>
   </ul>
 
   </div>

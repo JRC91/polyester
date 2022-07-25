@@ -15,6 +15,10 @@ label {
   display: block;
 }
 
+#tree {
+  background-image: "assets/leaves.jpg";
+}
+
 ul.aff li {
   border: none;
   list-style: none;
@@ -242,14 +246,20 @@ form div {
   border: solid black;
 }
 
+.backgroundSky {
+  background-color: rgb(0, 171, 238);
+
+  background-size: 140px;
+  margin: auto;
+}
 .helping {
-  padding-top: 140px;
   width: 60%;
   margin: auto;
-
-  background-size: 100% 120px;
 }
 
+.padding {
+  padding-top: 135px;
+}
 .leftBox {
   display: flex;
 }
@@ -258,14 +268,15 @@ form div {
   float: left;
   z-index: 0;
   border-radius: 30px;
+  border: rgb(20, 99, 38) solid;
   width: 600px;
   height: 400px;
-  box-shadow: -5px 10px;
+  box-shadow: -5px 10px rgb(20, 99, 38);
 }
 .textBoxLeft {
   z-index: 1;
   border-radius: 30px;
-  border: #000 solid;
+  border: rgb(20, 99, 38) solid;
   margin-top: 200px;
   margin-bottom: 100px;
   margin-right: 00px;
@@ -273,7 +284,7 @@ form div {
   background-color: white;
   width: 600px;
   height: 400px;
-  box-shadow: -5px 10px;
+  box-shadow: -5px 10px rgb(20, 99, 38);
 }
 .boxTop {
   text-align: center;
@@ -289,9 +300,10 @@ form div {
 .rightPic {
   z-index: 0;
   border-radius: 30px;
+  border: rgb(20, 99, 38) solid;
   width: 600px;
   height: 400px;
-  box-shadow: 5px 10px;
+  box-shadow: -5px 10px rgb(20, 99, 38);
 }
 .textBoxRight {
   z-index: 1;
@@ -303,7 +315,7 @@ form div {
   background-color: white;
   width: 600px;
   height: 400px;
-  box-shadow: 5px 10px;
+  box-shadow: -5px 10px rgb(20, 99, 38);
 }
 
 .boxText {
@@ -320,7 +332,14 @@ form div {
 }
 
 .inner {
-  background: linear-gradient(to right, white 40%, brown 40% 60%, white 60%);
+  width: 60%;
+  margin: auto;
+  background: linear-gradient(
+    to right,
+    rgb(0, 171, 238) 40%,
+    rgb(119, 79, 79) 40% 60%,
+    rgb(0, 171, 238) 60%
+  );
 }
 
 .footerNav {

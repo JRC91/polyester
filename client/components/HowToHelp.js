@@ -15,7 +15,10 @@ export default function Help () {
   }, [])
 
   return (
-    <div className='helping'>
+    <div className="padding">
+    <div className='tree'></div>
+    <div className="backgroundSky">
+
     <div className="inner">
     <h1 className="latest">How to Help</h1>
 
@@ -94,6 +97,8 @@ export default function Help () {
     </div>
     </div>
     </div>
+    </div>
+
   )
 }
 //https://calmatters.org/commentary/2022/03/vote-to-reduce-plastics-and-clean-up-our-environment/
