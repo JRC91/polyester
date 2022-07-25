@@ -3,26 +3,39 @@ import React, { useState, useEffect, useRef } from "react";
 
 export default function Allies () {
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+
 return (
   <div className="article">
     <div className="allies">
+    <div className="textBack">
     <h1 className="text-center">Anti-Plastic Organizations</h1>
 
-    <h3>International</h3>
+    <h3 className="subHead">International</h3>
     <ul className="aff">
       <h4>
-    <li>Green Peace</li>
-    <li>Plastic Free</li>
-    <li>Break Free From Plastic</li>
-    <li>1% For the Planet</li>
-    <li>Earthshot Prize</li>
-    <li>Plastic Pollution Coalition</li>
+    <li><a href='https://www.greenpeace.org/international/'>Green Peace </a></li>
+    <li><a href='https://www.plasticfreejuly.org/'>Plastic Free</a></li>
+    <li><a href='https://www.breakfreefromplastic.org/'>Break Free From Plastic</a></li>
+    <li><a href='https://onepercentfortheplanet.org/'>1% For the Planet</a></li>
+    <li><a href='https://earthshotprize.org/'>Earthshot Prize</a></li>
+    <li><a href='https://www.plasticpollutioncoalition.org/'>Plastic Pollution Coalition</a></li>
     </h4>
     </ul>
-    <h3>United States</h3>
-    <ul>
-    <li>Earth Day</li>
+    <h3 className="subHead">United States</h3>
+    <ul className="aff">
+      <h4>
+    <li><a href='https://www.earthday.org/'>Earth Day</a></li>
+    <li><a href='https://pennenvironment.org/'>Penn Environment</a></li>
+    <li><a href='https://uspirg.org/'>U.S. PIRG</a></li>
+    <li><a href='https://www.surfrider.org/'>Surfrider Foundation</a></li>
+    <li><a href='https://bagalliance.org/'>American Recyclable Plastic Bag Alliance</a></li>
+    </h4>
     </ul>
+    </div>
     </div>
 
   <h2>Plastic Industry Information</h2>

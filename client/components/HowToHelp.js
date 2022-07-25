@@ -16,13 +16,9 @@ export default function Help () {
 
   return (
     <div className="padding">
-    <div className='tree'></div>
     <div className="backgroundSky">
-
+    <div className='tree'>   <h1 className="latest">How to Help</h1></div>
     <div className="inner">
-    <h1 className="latest">How to Help</h1>
-
-
     <div className='leftBox'>
       <img src="/assets/cleanBeach.jpg"className="leftPic"></img>
     <div className="textBoxLeft">

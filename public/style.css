@@ -15,8 +15,14 @@ label {
   display: block;
 }
 
-#tree {
-  background-image: "assets/leaves.jpg";
+.tree {
+  background-color: rgb(20, 99, 38);
+  padding: 50px;
+  border-radius: 0% 00% 50% 50%;
+  margin: auto;
+}
+.aff {
+  padding-left: 0;
 }
 
 ul.aff li {
@@ -24,6 +30,18 @@ ul.aff li {
   list-style: none;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+ul.aff a {
+  color: black;
+}
+
+ul.aff a:hover {
+  color: blue;
+}
+.textBack {
+  width: 30%;
+  margin: auto;
 }
 
 nav a {
@@ -331,7 +349,14 @@ form div {
   background-color: white;
 }
 
+.subHead {
+  text-underline-offset: 0.3em;
+  text-decoration: underline;
+  margin: auto;
+  text-align: center;
+}
 .inner {
+  padding-top: 100px;
   width: 60%;
   margin: auto;
   background: linear-gradient(

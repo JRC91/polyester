@@ -4,6 +4,9 @@ import React, { useState, useEffect, useRef } from "react";
 export default function About() {
 
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
 
 
@@ -17,7 +20,7 @@ export default function About() {
    PROJECT CLEAR
     </h1>
 
-   <p>Project Clear is about raising awareness concerning plastic pollution and boosting groups that are taking action against it. Whether it be volunteer work, lobbying, or protest. Plastic does have its uses, but its use should be reserved for only the more unqiue and specialized applications it can have.</p>
+   <p>Project Clear is about boosting awareness concerning plastic pollution and advocating for groups that are taking action against it. </p>
 
     </div>
     <h1 className="mx-auto">Author</h1>
