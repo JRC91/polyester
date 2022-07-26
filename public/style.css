@@ -283,7 +283,6 @@ form div {
 }
 
 .leftPic {
-  float: left;
   z-index: 0;
   border-radius: 30px;
   border: rgb(20, 99, 38) solid;
@@ -297,13 +296,15 @@ form div {
   border: rgb(20, 99, 38) solid;
   margin-top: 200px;
   margin-bottom: 100px;
-  margin-right: 00px;
+  margin-right: 0px;
   margin-left: -100px;
   background-color: white;
   width: 600px;
+
   height: 400px;
   box-shadow: -5px 10px rgb(20, 99, 38);
 }
+
 .boxTop {
   text-align: center;
   width: 300px;
@@ -321,19 +322,19 @@ form div {
   border: rgb(20, 99, 38) solid;
   width: 600px;
   height: 400px;
-  box-shadow: -5px 10px rgb(20, 99, 38);
+  box-shadow: 5px 10px rgb(20, 99, 38);
 }
 .textBoxRight {
   z-index: 1;
   border-radius: 30px;
-  border: #000 solid;
+  border: rgb(20, 99, 38) solid;
   margin-top: 200px;
   margin-bottom: 100px;
   margin-right: -100px;
   background-color: white;
   width: 600px;
   height: 400px;
-  box-shadow: -5px 10px rgb(20, 99, 38);
+  box-shadow: 5px 10px rgb(20, 99, 38);
 }
 
 .boxText {
@@ -382,8 +383,48 @@ form div {
   margin-top: 10px;
 }
 
+.faq {
+  border-radius: 30px;
+  border: solid black;
+  margin: auto;
+  transition: height 4s;
+}
+.question {
+  border: none;
+  background-color: inherit;
+}
+
+.answer {
+  border-top: #000 solid;
+  background-color: #0653e0;
+}
+
 .socialDiv {
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+@media (max-width: 1600px) {
+  .leftBox {
+    flex-direction: column;
+  }
+  .textBoxLeft {
+    width: auto;
+    height: auto;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .rightBox {
+    flex-direction: column-reverse;
+  }
+  .textBoxRight {
+    width: auto;
+    height: auto;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }

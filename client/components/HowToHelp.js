@@ -70,7 +70,7 @@ export default function Help () {
     <div className='rightBox'>
     <div className="textBoxRight">
     <h3 className="boxTop">Protesting</h3>
-    <p className="boxText">The best way to get your voice heard in the real world, is showing up, pound pavement and slay with slogans. There are numerous organizations going up against plastic over-use, many of them hand in hand with climate change awareness groups. <a className="boxLink" href="https://www.earthday.org/">Earth Day</a> is the most prominent organization in environmentalism and has significant experience in planning and acting. Greenpeace is also a big name fighting pollution on all fronts, and has a long history of storied demonstrations. On the more extreme end you have Extinction Rebellion.
+    <p className="boxText">The best way to get your voice heard in the real world, is showing up, pound pavement and slay with slogans. There are numerous organizations going up against plastic over-use, many of them hand in hand with climate change awareness groups. <a className="boxLink" href="https://www.earthday.org/">Earth Day</a> is the most prominent organization in environmentalism and has significant experience in planning and acting. Greenpeace is also a big name fighting pollution on all fronts, and has a long history of storied demonstrations.</p><p className="boxText"> On the more extreme end you have Extinction Rebellion which takes a more disruptive and pro-active course.
     </p>
     </div>
     <img src="/assets/protest.jpg" className='rightPic'></img>

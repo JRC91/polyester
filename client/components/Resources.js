@@ -10,9 +10,10 @@ export default function Allies () {
 
 return (
   <div className="article">
+     <h1 className="text-center">Anti-Plastic Organizations</h1>
     <div className="allies">
     <div className="textBack">
-    <h1 className="text-center">Anti-Plastic Organizations</h1>
+
 
     <h3 className="subHead">International</h3>
     <ul className="aff">
@@ -44,7 +45,7 @@ return (
     <h4>
     <li><a target="_blank" className="boxLink" href='https://www.plasticsnews.com/'>Plastics News</a></li>
     <li><a target="_blank" className="boxLink" href='https://www.plasticstoday.com/'>Plastics Today</a></li>
-    <li><a target="_blank" className="boxLink"href='https://www.sustainableplastics.com/'>Plastics Today</a></li>
+    <li><a target="_blank" className="boxLink"href='https://www.sustainableplastics.com/'>Sustainable Plastics</a></li>
     </h4>
   </ul>
 
