@@ -165,7 +165,7 @@ form div {
 .quote {
   text-align: left;
   text-indent: 100px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Quicksand";
 }
 .imagePage {
   left: 50%;
@@ -247,7 +247,7 @@ form div {
   bottom: 50px; /* Place the button at the bottom of the page */
   right: 50px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
+  border: solid white; /* Remove borders */
   outline: none; /* Remove outline */
   background-color: black; /* Set a background color */
   color: white; /* Text color */
@@ -374,13 +374,20 @@ form div {
   justify-content: center;
 }
 
+.footer {
+  text-align: center;
+  border-top: #000 solid;
+  background-color: black;
+}
 .footerLink {
   font-weight: bold;
   border: none;
   background: none;
+  color: white;
 }
 .mediaText {
   margin-top: 10px;
+  color: white;
 }
 
 .faq {
@@ -392,6 +399,7 @@ form div {
 .question {
   border: none;
   background-color: inherit;
+  width: 100%;
 }
 
 .answer {

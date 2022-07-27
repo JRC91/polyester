@@ -29,7 +29,7 @@ export function SlideThree() {
       <span>
       <TwitterShareButton
       display='inline-block'
-        url="ProjectClear.herokuapp.com/plasticworld"
+        url="ProjectClear.herokuapp.com/blamegame"
         title="The Plastic World"
         className="Demo__some-network__share-button"
       >
@@ -39,7 +39,7 @@ export function SlideThree() {
       <span>
       <FacebookShareButton
         display="inline-block"
-        url="ProjectClear.herokuapp.com/plasticworld"
+        url="ProjectClear.herokuapp.com/blamegame"
         title="The Plastic World"
         className="Demo__some-network__share-button"
       >
@@ -60,19 +60,24 @@ export function SlideThree() {
         </div>
       </div>
       <div className="main">
+      <h4 className="quote">
+          "We developed a program that was called Operation Clean Sweep. I'd like to think it was because it was the right thing to do, but I would also be naive if I didn't think that much of the motivation was governed by, you know, keeping the regulators off our backs" ... "I don't recall any discussions about quantitatively measuring the success of the program. It was being measured really about who was participating, not what the results were."
+        </h4>
+        <h5 className="text-center">- Lew Freeman, Former Vice President of the Society of the Plastics Industry</h5>
         <p>
           Over the years there have been many attempts to individualize global
           problems. Concerned about global warming? Forget about industrial
           emissions, tanker fuel, cruise and freight ship pollution, and
           deforestation, it's up to you to drive less, stop eating meat, and
-          limit travel. Ridiculous. There are numerous treaties for
-          international trade, trade organizations, and commissions, but
-          currently ending plastic waste of a lesser significance.
+          limit travel. Ridiculous. The plastic industry is no different; according to them plastics are responsible for so many improvements and advancements, and of little cost to humanity, just as long as <b>YOU</b> recycle! Here's one such <a target='_blank' style={{color:'black', textDecoration: 'underline'}}href='https://www.plasticsmakeitpossible.com/about-plastics/plastics-and-the-environment/'>website, made and payed for by the American Chemical Council</a>. Quite amusing is their overuse of the color green and stock photos of kids and families to make the reader think "Plastic, green and healthy!". There's also an large focus on food preservation only made possible with plastics! Nevermind that modern food preservation has existed over hundred years before the first plastic was made, or that plastic packaging is rarely able to be recycled. Another one, a charity called <a target='_blank' style={{color:'black', textDecoration: 'underline'}}href='https://www.marinelittersolutions.com/about-marine-litter/what-are-microplastics/'>Marine Litter Solutions</a>, created by plastic makers, is focused on cleaning plastic from the oceans, while also paradoxically pretending plastics aren't harmful to marine or human life.
         </p>
+
         <p>
           Sure, every little bit helps, but the most substantial changes come at
           the top, and in a globalized world to push for change on a local level
-          is almost meaningless. As discussed, a lot of local effort in
+          is almost meaningless. There are numerous treaties for
+          international trade, trade organizations, and commissions, but
+          currently ending plastic waste of a lesser significance. As discussed in other articles, a lot of local effort in
           environmental remediation is wasted when plastic is shuttled to
           another country and dumped. The idea that we can recycle any plastic
           has been found to be a complete myth that has been purported by
@@ -91,7 +96,7 @@ export function SlideThree() {
           has found the normal citizen has little to no actual influence on
           policy.<sup>4</sup> Therefore, the normal citizen is of little to no fault in what
           has happened on the large scale. Attempting a 'plastic-free' life for
-          an individual is almost sisyphean. Looking at recommendations for
+          an individual is almost sisyphean with how many foods are packaged solely in plastic. Looking at recommendations for
           getting groceries, plastic free, is only possible in a fairly niche
           portion of the population.<sup>5</sup>
         </p>

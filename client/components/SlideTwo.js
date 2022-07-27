@@ -28,7 +28,7 @@ export const SlideTwo = () => {
         <span>
           <TwitterShareButton
             display="inline-block"
-            url="ProjectClear.herokuapp.com/plasticworld"
+            url="ProjectClear.herokuapp.com/recyclefolly"
             title="The Plastic World"
             className="Demo__some-network__share-button"
           >
@@ -38,7 +38,7 @@ export const SlideTwo = () => {
         <span>
           <FacebookShareButton
             display="inline-block"
-            url="ProjectClear.herokuapp.com/plasticworld"
+            url="ProjectClear.herokuapp.com/recyclefolly"
             title="The Plastic World"
             className="Demo__some-network__share-button"
           >
@@ -59,7 +59,13 @@ export const SlideTwo = () => {
         </div>
       </div>
       <div className="main">
-        <h3></h3>
+      <h4 className="quote">
+          "Solving the challenge of plastic waste in the environment, including marine debris, cannot be successfully addressed
+by one segment of society. Plastic producers, product manufactures, brands, retailers, recyclers and waste haulers,
+as well as communities, non-profits and federal, state and local government must come together to create the circular
+economic solutions and infrastructure this problem requires. "
+        </h4>
+        <h5 className="text-center">- American Chemical Council,"Principles for Eliminating Plastic Waste through a Circular Economy"</h5>
         <p>
           In every food court and on every side walk you will find recycle bins
           and people doing their part. For glass and paper, recycling has been a
@@ -93,9 +99,9 @@ export const SlideTwo = () => {
           Some such as Polypropylene and Polyethylene are recyclable, others
           such as Polyvinyl Chloride (PVC) and Low Density Polyethylene (plastic
           bags) not so much. <sup>5,6</sup> These different plastics have
-          different properties, and are not interchangeable. Many of the
+          different properties, and are not interchangeable. Plastics cannot also be recycled over and over, as they get weaker and more brittle as time goes on. Many of the
           single-use plastics, the ones that adorn our food as packaging or as
-          bags, are very difficult to recycle, and sadly they are the most
+          bags, are very difficult to recycle and almost never are! Sadly, single use plastics are the most
           ubiquitous.
         </p>
         <p>
@@ -116,7 +122,9 @@ export const SlideTwo = () => {
           recycled, making it impossible to use it again, over and over.{" "}
           <sup>10</sup>
         </p>
-
+            <p>
+              The big solution according to the plastics industry is making a 'Circular Economy', wherein plastics are manufactured with the intent of recycling and a long list of reforms, subsidizing, and government programs to fix the problem. How serious their proposal is debatable as the same companies have done everything to resist regulation and have polluted the environment with waste when trying to recycle already.<sup>13</sup>
+            </p>
         <p>
           Plastic recycling in its current form is a small inadequate band-aid
           for a grievous wound we have inflicted on the earth. On a policy
@@ -212,6 +220,9 @@ export const SlideTwo = () => {
               plastic waste?" by World Economic Forum, July 13 2022
             </a>
           </li>
+          <li><a target='_blank' href='https://www.npr.org/2020/12/22/946716058/big-oil-evaded-regulation-and-plastic-pellets-kept-spilling'>
+            "Big Oil Evaded Regulation And Plastic Pellets Kept Spilling" by Laura Sullivan, NPR, December 22, 2020
+            </a></li>
         </ol>
       </div>
     </div>

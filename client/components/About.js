@@ -41,7 +41,7 @@ export default function About() {
     <button className="question" onClick={() => flipIt(0)}  id="0">
     <h3>Why Plastics?</h3></button>
     <div className="answer" style={answer[0]}>
-      <p>Peek-aboooo SHOW UP DAMNIT</p>
+      <p>Plastics are a threat to humans and other living organisms because they may never break down completely, are often coated in toxic substances, and are present in the air, oceans, and soil as microplastics. Microplastics can go into human blood and pass the blood brain barrier. These plastics can cause cell death or inflammation.</p>
     </div>
    </div>
 
@@ -49,7 +49,7 @@ export default function About() {
     <button className="question" onClick={() => flipIt(1)} id="1">
     <h3>What kinds of plastics should be removed?</h3></button>
    <div className="answer" style={answer[1]}>
-    <h3>STOP IN THE G</h3>
+    <p>If it was possible to go without plastics entirely we would want to ban them all, wouldn't we? The first step would to be stopping single use plastics as they are a large portion of the waste produced. Then we should seriously consider banning plastic items of little significance like cheap little knick-knacks. Plastics should be reserved for items that inheritly require plastic's unique properties. </p>
     </div>
    </div>
 
@@ -58,7 +58,7 @@ export default function About() {
     What are the alternatives?
       </h3></button>
     <div className="answer" id="2" style={answer[2]}>
-      For materials we can look towards other sustainables, but reliable and consistent materials are still being developed.
+      For materials we can look towards other sustainables, but reliable and consistent materials are still being developed. For many applications we should consider going back to cardboard and glass, which have a more storied success of being recycled over and over again.
     </div>
    </div>
 
@@ -67,7 +67,7 @@ export default function About() {
     What can one person do?
     </h3></button>
    <div className="answer" id="3" style={answer[3]}>
-    <p>You can check out our page concerning what a person can do to see what you can do!</p>
+    <p>You can cut plastic out of your life your own benefit. As for large significant change, that requires having large significant power or large and significant numbers. You can check out the 'How To Help' page for more information on some of the things you can do to help curb plastic use and production.</p>
     </div>
     </div>
 
