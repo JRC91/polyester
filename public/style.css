@@ -68,7 +68,7 @@ nav a {
   margin: 1em;
 }
 .shareBar {
-  background-color: antiquewhite;
+  background-color: rgb(224, 164, 164);
   width: 50%;
   margin: auto;
 }
@@ -230,7 +230,7 @@ form div {
   text-indent: 5%;
   width: 50%;
   margin: auto;
-  background-color: antiquewhite;
+  background-color: rgb(224, 164, 164);
   background-size: 70%;
 }
 .frontPage {
