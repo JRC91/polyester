@@ -104,7 +104,7 @@ form div {
   position: absolute;
   top: 80%;
   left: 50%;
-  width: 1200px;
+  width: 100%;
   transform: translate(-50%, -50%);
 }
 .bannerSection {
@@ -134,12 +134,12 @@ form div {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     1px 1px 0 #000;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(156, 136, 136, 0.5);
 
   text-align: center;
 }
 .missionStatementAbout {
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
@@ -168,8 +168,9 @@ form div {
   font-family: "Quicksand";
 }
 .imagePage {
-  left: 50%;
-  max-width: 1200px;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
 }
 
 .nav-link {
@@ -190,7 +191,8 @@ form div {
   color: white;
   margin: auto;
   background-color: white;
-  width: 1200px;
+  height: auto;
+  width: 70%;
 }
 .Carousel {
   background-color: rgb(94, 161, 224);
@@ -215,6 +217,17 @@ form div {
 }
 
 .article {
+  /* margin: auto; */
+  margin-left: -100px;
+  padding-top: 135px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.navArticle {
   margin: auto;
   padding-top: 135px;
   text-align: center;
@@ -243,19 +256,19 @@ form div {
 }
 
 #myBtn {
-  position: fixed; /* Fixed/sticky position */
-  bottom: 50px; /* Place the button at the bottom of the page */
-  right: 50px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: solid white; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: black; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 99;
+  border: solid white;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
   height: 50px;
   width: 50px;
-  border-radius: 10px; /* Rounded corners */
-  font-size: 40px; /* Increase font size */
+  border-radius: 10px;
+  font-size: 40px;
 }
 
 #myBtn:hover {
@@ -400,11 +413,24 @@ form div {
   border: none;
   background-color: inherit;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.questionArrow {
+  text-align: right;
+
+  margin-left: auto;
 }
 
 .answer {
   border-top: #000 solid;
   background-color: #0653e0;
+  transition: height 4s;
+  margin: auto;
+  height: 150px;
+  width: auto;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .socialDiv {
@@ -435,4 +461,24 @@ form div {
     margin-left: 40px;
     margin-right: 40px;
   }
+}
+
+.sideBar {
+  position: sticky;
+  top: 170px;
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 80%;
+  height: 10%;
+  left: 10px;
+}
+
+.sideBarStory {
+  color: darkblue;
+}
+
+.sideDiv:hover {
+  background-color: aquamarine;
+  border-radius: 10px;
+  padding-top: 4px;
 }

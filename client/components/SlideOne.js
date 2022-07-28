@@ -9,6 +9,8 @@ import {
   EmailShareButton,
   EmailIcon
 } from "react-share";
+import Latest from "./Latest";
+
 export function SlideOne(props) {
   const [state, setState] = useState([]);
 
@@ -17,7 +19,10 @@ export function SlideOne(props) {
   }, [])
 
   return (
+    <div>
     <div className="article">
+      <Latest />
+      <div>
       <div className='shareBar'>
     <span>
       <h3>Share This Story:</h3></span>
@@ -55,8 +60,7 @@ export function SlideOne(props) {
         <img
           src="/assets/slideone.jpg"
           className="imagePage"
-          width="1200px"
-          height="600px"
+
         ></img>
         <div id="captionArticle">
           <h2>The Plastic World</h2>
@@ -107,7 +111,8 @@ export function SlideOne(props) {
 
         </p>
       </div>
-
+      </div>
+      </div>
       <div className="references">
         <h4 className="text-center">References</h4>
         <ol className="referenceList">
@@ -141,7 +146,8 @@ export function SlideOne(props) {
         </ol>
 
       </div>
-    </div>
+      </div>
+
   );
 }
 

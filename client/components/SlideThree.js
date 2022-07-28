@@ -9,6 +9,8 @@ import {
   EmailShareButton,
   EmailIcon
 } from "react-share";
+import Latest from "./Latest";
+
 export function SlideThree() {
 
   useEffect(() => {
@@ -17,7 +19,10 @@ export function SlideThree() {
 
 
   return (
+    <div>
     <div className="article">
+      <Latest />
+      <div>
           <div className='shareBar'>
     <span>
       <h3>Share This Story:</h3></span>
@@ -49,10 +54,9 @@ export function SlideThree() {
       </div>
       <div className="imageContainer">
         <img
-          className="d-block mx-auto"
+          className="imagePage"
           src="/assets/slidethree.webp"
-          width="1200px"
-          height="600px"
+
         ></img>
         <div id="captionArticle">
           <h2>The Blame Game</h2>
@@ -110,7 +114,8 @@ export function SlideThree() {
         </p>
         <img></img>
       </div>
-
+      </div>
+      </div>
       <div className="references">
         <h4 className="text-center">References</h4>
         <ol className="referenceList">

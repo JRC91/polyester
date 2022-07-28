@@ -32,10 +32,11 @@ export default function Footer () {
     </div>
     <Link className="navText" to="/">
             <img
-              className="border border-primary rounded"
+              className="rounded"
               src="/assets/projectClear.png"
               width="200px"
               height="100px"
+              style={{paddingTop:'5px', borderRadius:'10px,10px,10px,10px'}}
             />
           </Link>
     </div>

@@ -9,7 +9,7 @@ export default function Allies () {
 
 
 return (
-  <div className="article">
+  <div className="navArticle">
      <h1 className="text-center">Anti-Plastic Organizations</h1>
     <div className="allies">
     <div className="textBack">

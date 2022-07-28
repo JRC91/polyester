@@ -9,13 +9,19 @@ import {
   EmailShareButton,
   EmailIcon,
 } from "react-share";
+import Latest from "./Latest";
+
+
 export const SlideTwo = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   return (
+    <div>
     <div className="article">
+      <Latest/>
+      <div>
       <div className="shareBar">
         <span>
           <h3>Share This Story:</h3>
@@ -48,10 +54,9 @@ export const SlideTwo = () => {
       </div>
       <div className="imageContainer">
         <img
-          className="d-block mx-auto"
+
           src="/assets/slidetwo.png"
-          width="1200px"
-          height="600px"
+          className="imagePage"
         ></img>
         <div id="captionArticle">
           <h2>The Recycle Folly</h2>
@@ -135,7 +140,8 @@ economic solutions and infrastructure this problem requires. "
           better to curb production and mandate an end to single use plastics.
         </p>
       </div>
-
+      </div>
+      </div>
       <div className="references">
         <h4 className="text-center">References</h4>
         <ol className="referenceList">
@@ -224,7 +230,7 @@ economic solutions and infrastructure this problem requires. "
             "Big Oil Evaded Regulation And Plastic Pellets Kept Spilling" by Laura Sullivan, NPR, December 22, 2020
             </a></li>
         </ol>
-      </div>
+        </div>
     </div>
   );
 };
