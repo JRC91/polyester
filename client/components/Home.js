@@ -37,10 +37,11 @@ export const Home = (props) => {
 <h2 className='latest'>Latest News</h2>
 <Carousel activeIndex={index}  className='w-60 'variant="dark" onSelect={handleSelect}>
       <Carousel.Item className='imageCarousel'>
+      <Link to='/plasticworld'>
       <img className="d-block mx-auto"  src="/assets/slideone.jpg"
       width='900px'
       height='600px'></img>
-          <Link to='/plasticworld'>
+
           <div id='caption'>
           <h2 >The Plastic World</h2>
           <h4>How did we get to this point?</h4>
@@ -49,12 +50,13 @@ export const Home = (props) => {
 
       </Carousel.Item>
       <Carousel.Item className='imageCarousel'>
+      <Link to='/recyclefolly'>
        <img className='d-block mx-auto' src='/assets/slidetwo.png'
         width='900px'
         height='600px'
        ></img>
 
-          <Link to='/recyclefolly'>
+
         <div id='caption'>
           <h2 >The Recycle Folly</h2>
           <h4>Thrown Out and Forgotten.</h4>
@@ -63,11 +65,12 @@ export const Home = (props) => {
 
       </Carousel.Item>
       <Carousel.Item className='imageCarousel'>
+      <Link to='blamegame'>
       <img  className="d-block mx-auto" src='/assets/slidethree.webp'
        width='900px'
        height='600px'></img>
 
-        <Link to='blamegame'>
+
         <div id='caption'>
           <h2>The Blame Game</h2>
           <h4>

@@ -41,19 +41,17 @@ return (
 
   <h2>Plastic Industry Information</h2>
   <h5>Understanding the industry of plastics and petrochemicals helps us comprehend why we use plastic, and what needs to change in order to whittle down its uses.</h5>
+  <div className="aft">
   <ul className="aff" >
     <h4>
     <li><a target="_blank" className="boxLink" href='https://www.plasticsnews.com/'>Plastics News</a></li>
     <li><a target="_blank" className="boxLink" href='https://www.plasticstoday.com/'>Plastics Today</a></li>
     <li><a target="_blank" className="boxLink"href='https://www.sustainableplastics.com/'>Sustainable Plastics</a></li>
+    <li><a target="_blank" className="boxLink" href='https://www.americanchemistry.com/'>American Chemistry Council</a></li>
     </h4>
   </ul>
-
+  </div>
   </div>
 )
 
 }
-//https://theoceancleanup.com/
-//https://lifewithoutplastic.com/
-
-//https://www.plasticfreemke.org/plastics-education-toolkit

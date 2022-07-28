@@ -110,6 +110,7 @@ export function SlideOne(props) {
         The effect of microplastics on the human body are still not completely understood. If the plastics contain chemical coatings from their manufacture it could potentially leak into our bodies causing or increasing the risk of bodily disorders or disease. <sup>9</sup> It is also possible that the plastic in your gut, lungs, and wherever else can cause persistent inflammation, which can cause a multitude of problems: damaging healthy tissue, increase risk for diabetes, increased risk of cancer, and increased risk of heart disease. <sup>9, 10</sup> Plastic production and pollution threatens all life on earth. If unsolved, we may indeed only leave a plastic world to history.
 
         </p>
+        <img></img>
       </div>
       </div>
       </div>

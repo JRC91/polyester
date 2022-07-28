@@ -38,12 +38,14 @@ export default function About() {
 
    <p>Project Clear is about boosting awareness concerning plastic pollution and advocating for groups that are taking action against it. </p>
 
+
    <h2>Question and Answer</h2>
+   <div className="boxBlock">
    <div className="faq">
     <button className="question" onClick={() => flipIt(0)}  id="0">
     <span><h3>Why plastics?</h3></span><h2 className="questionArrow">{answer[0].display==='block' ? '▲' : '▼' }</h2></button>
     <div className="answer" style={answer[0]}>
-      <p>Plastics are a threat to humans and other living organisms because they may never break down completely, are often coated in toxic substances, and are present in the air, oceans, and soil as microplastics. Microplastics can go into human blood and pass the blood brain barrier. These plastics can cause cell death or inflammation.</p>
+      <p>Plastics are a threat to humans and other living organisms because they may never break down completely, are often coated in toxic substances, and are present in the air, oceans, and soil as microplastics. Animals can mistakingly eat these undigestable plastics, making it harder to survive. Microplastics can go into human blood and pass the blood brain barrier. These plastics can cause cell death or inflammation.</p>
     </div>
    </div>
 
@@ -72,7 +74,7 @@ export default function About() {
     <p>You can cut plastic out of your life your own benefit. As for large significant change, that requires having large significant power or large and significant numbers. You can check out the 'How To Help' page for more information on some of the things you can do to help curb plastic use and production.</p>
     </div>
     </div>
-
+    </div>
 
     </div>
     <h1 className="mx-auto">Author</h1>

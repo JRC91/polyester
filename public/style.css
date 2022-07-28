@@ -1,7 +1,12 @@
 body {
   font-family: sans-serif;
 }
-
+p {
+  font-family: "Assistant", sans-serif;
+}
+.text-center {
+  font-family: "Quicksand";
+}
 a {
   text-decoration: none;
   color: white;
@@ -25,6 +30,17 @@ label {
   padding-left: 0;
 }
 
+.aft {
+  background-image: url("/assets/pellets.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100%;
+  background-size: cover;
+  height: 400px;
+  border-top: #000 solid;
+}
+
 ul.aff li {
   border: none;
   list-style: none;
@@ -34,6 +50,10 @@ ul.aff li {
 
 ul.aff a {
   color: black;
+  text-shadow: white 3px 1px;
+  text-decoration: solid white 2px;
+  background-color: white;
+  opacity: 0.8;
 }
 
 ul.aff a:hover {
@@ -120,8 +140,8 @@ form div {
   background-attachment: fixed;
   width: 100%;
   background-size: cover;
+  border-bottom: solid black;
 }
-
 .statement {
   width: 50%;
   margin: auto;
@@ -150,6 +170,8 @@ form div {
   margin: auto;
   border: solid #000;
   border-radius: 20px;
+  margin-bottom: 10px;
+  box-shadow: 10px -10px 0px 2px teal;
 }
 .profileText {
   margin-top: 50px;
@@ -218,7 +240,7 @@ form div {
 
 .article {
   /* margin: auto; */
-  margin-left: -100px;
+  margin-left: -200px;
   padding-top: 135px;
   text-align: center;
   width: 100%;
@@ -402,32 +424,47 @@ form div {
   margin-top: 10px;
   color: white;
 }
+.boxBlock {
+  /* display: flex;
+  justify-content: space-evenly;
+  flex-direction: column; */
+}
 
 .faq {
   border-radius: 30px;
   border: solid black;
   margin: auto;
   transition: height 4s;
+  width: 100%;
+  margin-top: 30px;
+  box-shadow: 10px -10px teal;
 }
-.question {
+.faq: .question {
   border: none;
   background-color: inherit;
   width: 100%;
   display: flex;
+  margin: auto;
   justify-content: space-between;
+  box-shadow: #000;
+  margin-top: 10px;
 }
 .questionArrow {
   text-align: right;
-
+  color: white;
+  border-radius: 30px;
+  background-color: #000;
   margin-left: auto;
 }
 
 .answer {
   border-top: #000 solid;
-  background-color: #0653e0;
-  transition: height 4s;
+  background-color: #78c7df;
+  transition: height 2s;
   margin: auto;
-  height: 150px;
+  height: auto;
+  min-height: 100px;
+  max-height: 200px;
   width: auto;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
