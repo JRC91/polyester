@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React,  { ReactDOM, useEffect, useState } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-// const PayPalButton = paypal.Buttons.driver("react", { React, ReactDOM });
+const PayPalButton = paypal.Buttons.driver("react", {React});
 import { Dropdown, Button } from "react-bootstrap";
 export function Navbar() {
   const [opaqueSetting, setOpaque] = useState(["0"]);
@@ -62,9 +62,9 @@ export function Navbar() {
         </div>
       </nav>
     {toggle?
-    <div>
+    <div className='centerStage'>
 
-  {/* <PayPalButton></PayPalButton> */}
+  { <PayPalButton></PayPalButton> }
   </div>
     : <></>}
     </div>
