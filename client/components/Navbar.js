@@ -1,8 +1,10 @@
 import React,  { ReactDOM, useEffect, useState } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-const PayPalButton = paypal.Buttons.driver("react", {React});
+
 import { Dropdown, Button } from "react-bootstrap";
+import { PayPalButtons } from "@paypal/react-paypal-js";
+
 export function Navbar() {
   const [opaqueSetting, setOpaque] = useState(["0"]);
   const [toggle, setToggle] = useState(false)
@@ -14,11 +16,18 @@ export function Navbar() {
   }
 
   function toggleClick () {
+    console.log(toggle)
     if(toggle){
+      document.body.style.overflow = "visible"
+      document.body.classList.remove("no-scroll")
       setToggle(false)
     }
-    if(toggle)
-    {setToggle(true)}
+    if(!toggle)
+    {
+      document.body.style.overflow = "hidden"
+      document.body.classList.add("no-scroll")
+      setToggle(true)
+    }
   }
 
 
@@ -62,9 +71,19 @@ export function Navbar() {
         </div>
       </nav>
     {toggle?
-    <div className='centerStage'>
+    <div className='donatePage'>
+      <button className="cancel" onClick={toggleClick}>X</button>
+      <div className="centerStage">
+        <div>
 
-  { <PayPalButton></PayPalButton> }
+        </div>
+        <div className="donationBox">
+
+    <PayPalButtons
+
+    />
+    </div>
+    </div>
   </div>
     : <></>}
     </div>

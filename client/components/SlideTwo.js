@@ -138,7 +138,9 @@ economic solutions and infrastructure this problem requires. "
           seem more viable and benign than it really is. For the effort and
           money put into it, plastic recycling is a fool's errand. It would be
           better to curb production and mandate an end to single use plastics.
+
         </p>
+
         <img></img>
       </div>
       </div>
