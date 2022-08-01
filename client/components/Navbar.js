@@ -25,6 +25,7 @@ export function Navbar() {
     }
     if(!toggle)
     {
+      window.scrollTo(0, 0)
       document.body.style.overflow = "hidden"
       document.body.classList.add("no-scroll")
       setToggle(true)
