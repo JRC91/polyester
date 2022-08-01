@@ -1,13 +1,14 @@
 import React,  { ReactDOM, useEffect, useState } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-
+import Donation from "./donation";
 import { Dropdown, Button } from "react-bootstrap";
 import { PayPalButtons } from "@paypal/react-paypal-js";
 
 export function Navbar() {
   const [opaqueSetting, setOpaque] = useState(["0"]);
   const [toggle, setToggle] = useState(false)
+  const [donation, setDonation] = useState(0)
   function handleScroll(evt) {
 
     if (opaqueSetting === "0") {
@@ -54,7 +55,7 @@ export function Navbar() {
               height="100px"
             />
           </Link>
-          <a href="#" onClick={handleScroll}>
+          <a onClick={handleScroll}>
             <Link to='/howtohelp'>
               <button className="nav-link">How To Help</button>
             </Link>
@@ -71,20 +72,10 @@ export function Navbar() {
         </div>
       </nav>
     {toggle?
-    <div className='donatePage'>
-      <button className="cancel" onClick={toggleClick}>X</button>
-      <div className="centerStage">
-        <div>
-
-        </div>
-        <div className="donationBox">
-
-    <PayPalButtons
-
-    />
-    </div>
-    </div>
-  </div>
+   <div className='donatePage'>
+    <button className="cancel" onClick={toggleClick}>X</button>
+    <Donation />
+   </div>
     : <></>}
     </div>
   );

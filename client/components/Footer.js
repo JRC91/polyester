@@ -15,7 +15,7 @@ export default function Footer () {
               <button className='footerLink'>How To Help</button>
             </Link>
             <h4>|</h4>
-            <Link>
+            <Link to='/resources'>
               <button className='footerLink'>Resources</button>
             </Link>
             <h4>|</h4>
