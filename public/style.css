@@ -3,6 +3,7 @@ body {
 }
 p {
   font-family: "Assistant", sans-serif;
+  font-size: 20px;
 }
 .text-center {
   font-family: "Quicksand";
@@ -68,7 +69,7 @@ nav a {
   margin: 1em;
 }
 .shareBar {
-  background-color: rgb(224, 164, 164);
+  background-color: rgb(255, 255, 255);
   width: 50%;
   margin: auto;
 }
@@ -216,7 +217,7 @@ form div {
   width: 70%;
 }
 .Carousel {
-  background-color: rgb(94, 161, 224);
+  background-color: rgb(255, 255, 255);
 }
 
 .imageCarousel {
@@ -224,13 +225,17 @@ form div {
   text-align: center;
   color: white;
 }
-
+.latestIMG {
+  display: block;
+  margin: auto;
+  border: black solid;
+}
 .main {
   text-align: left;
   text-indent: 5%;
   width: 50%;
   margin: auto;
-  background-color: rgb(224, 164, 164);
+  background-color: rgb(255, 255, 255);
   background-size: 70%;
 }
 .frontPage {
@@ -278,9 +283,9 @@ form div {
 
 .latest {
   text-align: center;
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
+  color: rgb(0, 0, 0);
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000; */
 }
 
 #myBtn {

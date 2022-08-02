@@ -64,6 +64,8 @@ export function SlideThree() {
         </div>
       </div>
       <div className="main">
+      <h5>By James Carmody</h5>
+        <h6><i>July 25th 2022</i></h6>
       <h4 className="quote">
           "We developed a program that was called Operation Clean Sweep. I'd like to think it was because it was the right thing to do, but I would also be naive if I didn't think that much of the motivation was governed by, you know, keeping the regulators off our backs" ... "I don't recall any discussions about quantitatively measuring the success of the program. It was being measured really about who was participating, not what the results were."
         </h4>

@@ -68,6 +68,8 @@ export function SlideOne(props) {
         </div>
       </div>
       <div className="main">
+        <h5>By James Carmody</h5>
+        <h6><i>July 22nd 2022</i></h6>
         <h4 className="quote">
           "Have you noticed what's happened to Plastic in the last 10 years? It's
           become something in it's own right. I mean early on, if you made

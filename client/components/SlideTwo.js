@@ -64,6 +64,8 @@ export const SlideTwo = () => {
         </div>
       </div>
       <div className="main">
+      <h5>By James Carmody</h5>
+        <h6><i>July 22nd 2022</i></h6>
       <h4 className="quote">
           "Solving the challenge of plastic waste in the environment, including marine debris, cannot be successfully addressed
 by one segment of society. Plastic producers, product manufactures, brands, retailers, recyclers and waste haulers,
