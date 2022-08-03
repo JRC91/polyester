@@ -9,7 +9,7 @@ export default function Latest() {
         <div className="sideStories">
         <div className="sideDiv">
         <Link  to="/plasticworld">
-          <img src="/assets/slideone.jpg" width="100px" height="100px"></img>
+          <img className='latestImage'src="/assets/slideone.jpg" ></img>
 
           <div id="sideBarStory">
             <h4 >The Plastic World</h4>
@@ -19,7 +19,7 @@ export default function Latest() {
         </div>
         <div className='sideDiv'>
         <Link  to="/recyclefolly">
-          <img src="/assets/slidetwo.png" width="100px" height="100px"></img>
+          <img className='latestImage'src="/assets/slidetwo.png" ></img>
 
           <div id="sideBarStory">
             <h4 >The Recycle Folly</h4>
@@ -29,7 +29,7 @@ export default function Latest() {
         </div>
         <div className='sideDiv'>
         <Link  to="blamegame">
-          <img src="/assets/slidethree.webp" width="100px" height="100px"></img>
+          <img className='latestImage'src="/assets/slidethree.webp" ></img>
 
           <div id="sideBarStory">
             <h4 >The Blame Game</h4>

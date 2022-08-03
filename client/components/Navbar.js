@@ -12,12 +12,35 @@ export function Navbar() {
   const [opaqueSetting, setOpaque] = useState(["0"]);
   const [toggle, setToggle] = useState(false)
   const [donation, setDonation] = useState(0)
+  const [displayValue, setDisplay] = useState({top:'0px'})
   function handleScroll(evt) {
 
     if (opaqueSetting === "0") {
       setOpaque("50");
     }
   }
+
+  useEffect(() => {
+    const handleScroll = event => {
+      checkIt(window.scrollY)
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  function checkIt (scroll) {
+
+    if(scroll > 100){
+      setDisplay({top:'-140px'})
+    }
+    else {setDisplay({top:'0px'})}
+  }
+
+
 
   function toggleClick () {
     console.log(toggle)
@@ -49,7 +72,7 @@ export function Navbar() {
     <div>
       <nav>
         <div
-          className="navBar"
+          className="navBar" style={displayValue}
         >
           <Link className="navText" to="/">
             <img

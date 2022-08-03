@@ -75,16 +75,17 @@ nav a {
 }
 
 .navBar {
-  display: flex;
   justify-content: space-evenly;
   overflow: hidden;
-  background: rgb(255, 255, 255, 0.8);
+  display: flex;
+  background: rgb(255, 255, 255);
   margin-bottom: 0px;
   position: fixed;
   z-index: 3;
   width: 100%;
   top: 0;
   border-bottom: 2px solid black;
+  transition: top 0.3s;
 }
 .navBar p {
   font-family: Arial, Helvetica, sans-serif;
@@ -96,6 +97,12 @@ nav a {
 form div {
   margin: 1em;
   display: inline-block;
+}
+
+.latestImage {
+  width: 100px;
+  height: 100px;
+  border: #000 solid 2px;
 }
 
 #captionBox {
