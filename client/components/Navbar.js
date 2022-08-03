@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import Donation from "./donation";
 import { Dropdown, Button } from "react-bootstrap";
 import { PayPalButtons } from "@paypal/react-paypal-js";
+import DropdownItem from "react-bootstrap/esm/DropdownItem";
+import DropdownToggle from "react-bootstrap/esm/DropdownToggle";
+import DropdownMenu from "react-bootstrap/esm/DropdownMenu";
 
 export function Navbar() {
   const [opaqueSetting, setOpaque] = useState(["0"]);
@@ -69,7 +72,21 @@ export function Navbar() {
 
             <button  onClick={toggleClick}className="donate">Donate</button>
           </a>
-
+          <Dropdown className='dropDown'>
+            <DropdownToggle id='dropDown'>☰</DropdownToggle>
+            <DropdownMenu>
+          <DropdownItem eventKey='1'><Link to='/howtohelp'>
+              <button className="menulink">How To Help</button>
+            </Link> </DropdownItem>
+          <DropdownItem eventKey='2'> <Link to='/resources'>
+              <button className="menulink">Resources</button>
+            </Link></DropdownItem>
+          <DropdownItem eventKey='3'><Link to="/about">
+              <button className="menulink">About Us</button>
+            </Link></DropdownItem>
+            <DropdownItem eventKey='4'> <button  onClick={toggleClick}className="menulink">Donate</button></DropdownItem>
+            </DropdownMenu>
+          </Dropdown>
         </div>
       </nav>
     {toggle?

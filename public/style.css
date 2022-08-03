@@ -529,30 +529,6 @@ form div {
   flex-direction: row;
   justify-content: center;
 }
-@media (max-width: 1600px) {
-  .leftBox {
-    flex-direction: column;
-  }
-  .textBoxLeft {
-    width: auto;
-    height: auto;
-    margin-top: -50px;
-    margin-bottom: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-  .rightBox {
-    flex-direction: column-reverse;
-  }
-  .textBoxRight {
-    width: auto;
-    height: auto;
-    margin-top: -50px;
-    margin-bottom: 100px;
-    margin-left: 40px;
-    margin-right: 40px;
-  }
-}
 
 .sideBar {
   position: sticky;
@@ -656,4 +632,69 @@ form div {
   text-align: left;
   padding: 15px 32px;
   box-shadow: #000;
+}
+
+.dropDown {
+  display: none;
+}
+
+/*lower screen styling */
+@media (max-width: 1600px) {
+  .leftBox {
+    flex-direction: column;
+  }
+  .textBoxLeft {
+    width: auto;
+    height: auto;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .rightBox {
+    flex-direction: column-reverse;
+  }
+  .textBoxRight {
+    width: auto;
+    height: auto;
+    margin-top: -50px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media (max-width: 900px) {
+  .nav-link {
+    display: none;
+  }
+  .dropDown {
+    display: inline-block;
+    margin: auto;
+    z-index: 100;
+    position: fixed;
+    top: 5%;
+    right: 10%;
+  }
+  .donate {
+    display: none;
+  }
+  #dropDown {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    z-index: 100;
+  }
+  .menulink {
+    margin: auto;
+    font-weight: bold;
+    border: none;
+    background: none;
+    color: black;
+  }
+  .menulink:hover,
+  .menulink:active {
+    border-bottom: 2px solid #0653e0;
+  }
 }
