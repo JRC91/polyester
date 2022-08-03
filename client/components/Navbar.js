@@ -72,6 +72,7 @@ export function Navbar() {
 
             <button  onClick={toggleClick}className="donate">Donate</button>
           </a>
+          {/*below allows for a menu to appear when screen size is below a threshold*/}
           <Dropdown className='dropDown'>
             <DropdownToggle id='dropDown'>☰</DropdownToggle>
             <DropdownMenu>
@@ -84,7 +85,7 @@ export function Navbar() {
           <DropdownItem eventKey='3'><Link to="/about">
               <button className="menulink">About Us</button>
             </Link></DropdownItem>
-            <DropdownItem eventKey='4'> <button  onClick={toggleClick}className="menulink">Donate</button></DropdownItem>
+            <DropdownItem eventKey='4'> <Link><button  onClick={toggleClick}className="menulink">Donate</button></Link></DropdownItem>
             </DropdownMenu>
           </Dropdown>
         </div>

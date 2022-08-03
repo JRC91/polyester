@@ -6,7 +6,7 @@ export default function ScrollUp (props) {
 const [buttonD, setButton] = useState({display:'none'})
 
 function topFunc () {
-  console.log(document.documentElement.scrollTop)
+  console.log(window.innerWidth)
   window.scrollTo(0, 0)
 }
 
@@ -24,7 +24,7 @@ useEffect(() => {
 
 function checkIt (scroll) {
 
-  if(scroll > 200){
+  if(scroll > 200 && window.innerWidth > 900){
     setButton({display:'block'})
   }
   else {setButton({display:'none'})}

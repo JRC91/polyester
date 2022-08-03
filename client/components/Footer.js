@@ -26,7 +26,7 @@ export default function Footer () {
 
     </div>
       <div className='socialDiv'>
-     <h6 className='mediaText'>Follow Us on Media:</h6>
+     <h6 className='mediaText'>Follow Us on Social Media:</h6>
     <span><a target="_blank"  href='https://twitter.com'><TwitterIcon round size='40px'></TwitterIcon></a></span>
     <span><a target="_blank"  href='https://facebook.com'><FacebookIcon round size='40px'></FacebookIcon></a></span>
     </div>

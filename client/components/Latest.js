@@ -6,6 +6,7 @@ export default function Latest() {
     <div className="sideBar">
       <div>
         <h3>Latest Stories</h3>
+        <div className="sideStories">
         <div className="sideDiv">
         <Link  to="/plasticworld">
           <img src="/assets/slideone.jpg" width="100px" height="100px"></img>
@@ -35,6 +36,7 @@ export default function Latest() {
             <h5>Who Shoulders The Responsbility?</h5>
           </div>
         </Link>
+        </div>
         </div>
       </div>
     </div>

@@ -70,7 +70,7 @@ nav a {
 }
 .shareBar {
   background-color: rgb(255, 255, 255);
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
@@ -297,7 +297,7 @@ form div {
   outline: none;
   background-color: black;
   color: white;
-  cursor: pointer;
+  cursor: pointer;navArt
   height: 50px;
   width: 50px;
   border-radius: 10px;
@@ -351,7 +351,6 @@ form div {
 
 .backgroundSky {
   background-color: rgb(0, 171, 238);
-
   background-size: 140px;
   margin: auto;
 }
@@ -478,11 +477,6 @@ form div {
   margin-top: 10px;
   color: white;
 }
-.boxBlock {
-  /* display: flex;
-  justify-content: space-evenly;
-  flex-direction: column; */
-}
 
 .faq {
   border-radius: 30px;
@@ -559,12 +553,13 @@ form div {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .centerStage {
-  top: 10%;
-  left: 30%;
-  position: absolute;
+
+  position: fixed;
   overflow: auto;
   display: flex;
-  justify-content: space-around;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 
 .cancel {
@@ -573,8 +568,8 @@ form div {
   font: bold;
   text-decoration: none;
   border: none;
-  top: 10%;
-  left: 80%;
+  top: 5%;
+  left: 90%;
   position: relative;
   font-size: 30px;
   width: 50px;
@@ -662,6 +657,12 @@ form div {
     margin-left: 40px;
     margin-right: 40px;
   }
+  .article {
+    margin: auto;
+  }
+  .main {
+    width: 70%;
+  }
 }
 @media (max-width: 900px) {
   .nav-link {
@@ -692,9 +693,87 @@ form div {
     border: none;
     background: none;
     color: black;
+    text-align: center;
+    padding: auto;
   }
   .menulink:hover,
   .menulink:active {
     border-bottom: 2px solid #0653e0;
+  }
+  .sideBar {
+    /* display: none; */
+    position:inherit;
+        width: auto;
+    max-width: 900px;
+    top: auto;
+    display: inline-block;
+    flex:3;
+  }
+  .sideStories {
+    display: flex;
+  }
+  #myBtn {
+    display: none;
+  }
+  .inner {
+    width: 100%;
+  }
+  .rightPic {
+    width: 100%;
+  }
+  .leftPic {
+    width: 100%;
+  }
+  .answer {
+    max-height: none;
+  }
+  .profile {
+    width: 90%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  .profileText{
+    text-align: left;
+  }
+  .profileImage {
+    padding: auto;
+    margin: auto;
+  }
+  .linkedIn {
+    margin: auto;
+  }
+  .question {
+    width: auto;
+  }
+  .navArticle {
+    padding: auto;
+  }
+  .imageCarousel{
+    width: 100%;
+  }
+  .latestIMG {
+    width: 70%;
+    height: 300px;
+  }
+  #caption {
+    width: 70%
+  }
+  .article {
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .main {
+    width: 90%;
+  }
+  .centerStage {
+
+  }
+  .infoBox {
+    display: none;
   }
 }
