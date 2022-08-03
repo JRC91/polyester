@@ -15,7 +15,7 @@ export default function About() {
 
   function flipIt(evt){
 
-    console.log(answer[evt])
+
     if(answer[evt].display === 'none'){
       answer[evt] = {display:'block'}
       setAnswer([...answer,answer[evt] = {display:'block'}])
