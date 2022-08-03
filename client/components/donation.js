@@ -50,7 +50,7 @@ useEffect(()=> {
       </div>
 
         <PayPalButtons    />
-        <h5>Paypal is In SandBox Mode</h5>
+        <h5>Paypal is in SandBox Mode</h5>
     </div>
   </div>
 

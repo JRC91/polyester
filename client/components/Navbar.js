@@ -11,8 +11,8 @@ import DropdownMenu from "react-bootstrap/esm/DropdownMenu";
 export function Navbar() {
   const [opaqueSetting, setOpaque] = useState(["0"]);
   const [toggle, setToggle] = useState(false)
-  const [donation, setDonation] = useState(0)
   const [displayValue, setDisplay] = useState({top:'0px'})
+  const [menuValue, setMenu] = useState({top:'5%'})
   function handleScroll(evt) {
 
     if (opaqueSetting === "0") {
@@ -36,14 +36,18 @@ export function Navbar() {
 
     if(scroll > 100){
       setDisplay({top:'-140px'})
+      setMenu({top:'-140px'})
     }
-    else {setDisplay({top:'0px'})}
+    else {
+      setDisplay({top:'0px'})
+      setMenu({top:'5%'})
+  }
   }
 
 
 
   function toggleClick () {
-    console.log(toggle)
+
     if(toggle){
       document.body.style.overflow = "visible"
       document.body.classList.remove("no-scroll")
@@ -96,7 +100,8 @@ export function Navbar() {
             <button  onClick={toggleClick}className="donate">Donate</button>
           </a>
           {/*below allows for a menu to appear when screen size is below a threshold*/}
-          <Dropdown className='dropDown'>
+          <div></div>
+          <Dropdown className='dropDown'  style={menuValue}>
             <DropdownToggle id='dropDown'>☰</DropdownToggle>
             <DropdownMenu>
           <DropdownItem eventKey='1'><Link to='/howtohelp'>

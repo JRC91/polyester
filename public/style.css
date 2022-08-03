@@ -638,6 +638,7 @@ form div {
 
 .dropDown {
   display: none;
+  transition: top 0.3s;
 }
 
 /*lower screen styling */
