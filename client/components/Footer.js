@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 export default function Footer () {
   return (
     <div className='footer'>
-      <h6 className='footerLink'>Project Clear is an organization promoting plastic pollution awareness. Copy 2022</h6>
+      <h6 className='footerLink'>Project Clear is a currently fictional organization promoting plastic pollution awareness. Site is a mock-up. Copy 2022</h6>
     <div className='footerNav'>
     <Link to='/howtohelp'>
               <button className='footerLink'>How To Help</button>

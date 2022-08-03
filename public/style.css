@@ -78,7 +78,7 @@ nav a {
   display: flex;
   justify-content: space-evenly;
   overflow: hidden;
-  background: rgb(255, 255, 255, 0.5);
+  background: rgb(255, 255, 255, 0.8);
   margin-bottom: 0px;
   position: fixed;
   z-index: 3;
@@ -126,6 +126,7 @@ form div {
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
+
 }
 .bannerSection {
   background-image: url("/assets/banner.gif");
@@ -215,6 +216,7 @@ form div {
   background-color: white;
   height: auto;
   width: 70%;
+  margin-bottom: 10px;
 }
 .Carousel {
   background-color: rgb(255, 255, 255);
@@ -650,7 +652,7 @@ form div {
     flex-direction: column-reverse;
   }
   .textBoxRight {
-    width: auto;
+    width: 90%;
     height: auto;
     margin-top: -50px;
     margin-bottom: 100px;
@@ -770,8 +772,8 @@ form div {
   .main {
     width: 90%;
   }
-  .centerStage {
-
+  .donationBox {
+    width: auto;
   }
   .infoBox {
     display: none;
