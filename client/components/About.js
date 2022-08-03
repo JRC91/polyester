@@ -71,7 +71,7 @@ export default function About() {
     What can one person do?
     </h3></span> <h2 className="questionArrow">{answer[3].display==='block' ? '▲' : '▼' }</h2></button>
    <div className="answer" id="3" style={answer[3]}>
-    You can cut plastic out of your life your own benefit. As for large significant change, that requires having large significant power or large and significant numbers. You can check out the 'How To Help' page for more information on some of the things you can do to help curb plastic use and production.
+    You can cut plastic out of your life for your own benefit. As for large significant change, that requires having large significant power or large and significant numbers. You can check out the 'How To Help' page for more information on some of the things you can do to help curb plastic use and production.
     </div>
     </div>
     </div>
