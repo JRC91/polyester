@@ -126,7 +126,6 @@ form div {
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
-
 }
 .bannerSection {
   background-image: url("/assets/banner.gif");
@@ -299,7 +298,7 @@ form div {
   outline: none;
   background-color: black;
   color: white;
-  cursor: pointer;navArt
+  cursor: pointer;
   height: 50px;
   width: 50px;
   border-radius: 10px;
@@ -555,7 +554,6 @@ form div {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .centerStage {
-
   position: fixed;
   overflow: auto;
   display: flex;
@@ -652,7 +650,7 @@ form div {
     flex-direction: column-reverse;
   }
   .textBoxRight {
-    width: 90%;
+    width: auto;
     height: auto;
     margin-top: -50px;
     margin-bottom: 100px;
@@ -704,12 +702,12 @@ form div {
   }
   .sideBar {
     /* display: none; */
-    position:inherit;
-        width: auto;
+    position: inherit;
+    width: auto;
     max-width: 900px;
     top: auto;
     display: inline-block;
-    flex:3;
+    flex: 3;
   }
   .sideStories {
     display: flex;
@@ -737,7 +735,7 @@ form div {
     padding-bottom: 10px;
     margin-bottom: 10px;
   }
-  .profileText{
+  .profileText {
     text-align: left;
   }
   .profileImage {
@@ -753,7 +751,7 @@ form div {
   .navArticle {
     padding: auto;
   }
-  .imageCarousel{
+  .imageCarousel {
     width: 100%;
   }
   .latestIMG {
@@ -761,7 +759,7 @@ form div {
     height: 300px;
   }
   #caption {
-    width: 70%
+    width: 70%;
   }
   .article {
     justify-content: flex-end;
