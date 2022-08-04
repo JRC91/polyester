@@ -397,8 +397,9 @@ form div {
   margin-left: -100px;
   background-color: white;
   width: 600px;
-
-  height: 400px;
+  min-width: 600px;
+  max-height: 400px;
+  height: auto;
   box-shadow: -5px 10px rgb(20, 99, 38);
 }
 
@@ -430,12 +431,14 @@ form div {
   margin-right: -100px;
   background-color: white;
   width: 600px;
-  height: 400px;
+  min-width: 600px;
+  height: auto;
+  max-height: 400px;
   box-shadow: 5px 10px rgb(20, 99, 38);
 }
 
 .boxText {
-  margin: 10px;
+  margin: 5px;
   padding: auto;
 }
 

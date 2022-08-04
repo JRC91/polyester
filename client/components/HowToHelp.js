@@ -42,7 +42,7 @@ export default function Help () {
     <p className="boxText">Here are some great resources for limiting plastic waste:</p>
     <ul>
       <li><a target="_blank"className="boxLink" href='https://plasticfreeshopper.com/plastic-free-living/'>Plastic Free Living</a></li>
-      <li><a target="_blank"className="boxLink" href='https://www.consumerreports.org/environment-sustainability/how-to-quit-plastic/'>Consumer Report's How to Quir Plastic</a></li>
+      <li><a target="_blank"className="boxLink" href='https://www.consumerreports.org/environment-sustainability/how-to-quit-plastic/'>Consumer Report's How to Quit Plastic</a></li>
       <li><a  target="_blank"className="boxLink" href='https://www.eatingwell.com/article/7948273/how-to-cut-back-on-plastic-food-home/'>Eating Well's 8 Simple Ways to Cut Back on Plastic in Your Food and at Home</a></li>
 
     </ul>
@@ -71,12 +71,13 @@ export default function Help () {
     <div className="textBoxRight">
     <h3 className="boxTop">Protesting</h3>
     <p className="boxText">The best way to get your voice heard in the real world, is showing up, pound pavement and slay with slogans. There are numerous organizations going up against plastic over-use, many of them hand in hand with climate change awareness groups. <a target='_blank'className="boxLink" href="https://www.earthday.org/">Earth Day</a> is the most prominent organization in environmentalism and has significant experience in planning and acting. Greenpeace is also a big name fighting pollution on all fronts, and has a long history of storied demonstrations.
-    </p><p className="boxText"> On the more extreme end you have Extinction Rebellion which takes a more disruptive and pro-active course.
+    </p>
     <ul>
     <li><a target='blank'className="boxLink" href="https://www.earthday.org/">Earth Day</a></li>
     <li><a target='blank'className="boxLink" href="https://www.rebellion.global/">Extinction Rebellion</a></li>
+    <li><a target='blank'className="boxLink" href="https://www.greenpeace.org/">Greenpeace</a></li>
     </ul>
-    </p>
+
     </div>
     <img src="/assets/protest.jpg" className='rightPic'></img>
     </div>
