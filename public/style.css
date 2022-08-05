@@ -1,5 +1,7 @@
 body {
   font-family: sans-serif;
+  max-width: 4000px;
+  margin: auto;
 }
 p {
   font-family: "Assistant", sans-serif;
@@ -34,6 +36,7 @@ label {
   background-size: cover;
   height: 400px;
   border-top: #000 solid;
+  max-width: 2000px;
 }
 
 ul.aff li {
@@ -78,6 +81,8 @@ nav a {
   position: fixed;
   z-index: 3;
   width: 100%;
+  max-width: 4000px;
+  margin: auto;
   border-bottom: 2px solid black;
   transition: top 0.3s;
 }
@@ -97,6 +102,7 @@ form div {
   width: 100px;
   height: 100px;
   border: #000 solid 2px;
+  max-width: 1400px;
 }
 
 #captionBox {
@@ -126,6 +132,7 @@ form div {
   top: 80%;
   left: 50%;
   width: 100%;
+  max-width: 2000px;
   transform: translate(-50%, -50%);
 }
 .bannerSection {
@@ -133,6 +140,7 @@ form div {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  max-width: 2000px;
 }
 .allies {
   background-image: url("/assets/UnitedWorld.svg");
@@ -142,6 +150,7 @@ form div {
   width: 100%;
   background-size: cover;
   border-bottom: solid black;
+  max-width: 2000px;
 }
 .statement {
   width: 50%;
@@ -194,6 +203,7 @@ form div {
   width: 100%;
   height: auto;
   max-height: 600px;
+  max-width: 2000px;
 }
 
 .nav-link {
@@ -458,7 +468,10 @@ form div {
 }
 .inner {
   padding-top: 100px;
-  width: 60%;
+  width: 50%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   margin: auto;
   background: linear-gradient(
     to right,
@@ -466,6 +479,8 @@ form div {
     rgb(119, 79, 79) 40% 60%,
     rgb(0, 171, 238) 60%
   );
+  display: flex;
+  flex-direction: column;
 }
 
 .footerNav {
