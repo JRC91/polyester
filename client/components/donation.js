@@ -50,7 +50,7 @@ useEffect(()=> {
       </div>
 
         <PayPalButtons    />
-        <h5>Paypal is in SandBox Mode</h5>
+        <h2 className="danger">Charity is not real, do not enter payment information! Site is a mock-up.</h2>
     </div>
   </div>
 

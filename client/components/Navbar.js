@@ -44,7 +44,7 @@ export function Navbar() {
   }
   }
 
-
+//This function will darken and lock the screen so the user can enter in information. It also toggles if the menu pops up or not
 
   function toggleClick () {
 
